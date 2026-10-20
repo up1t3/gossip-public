@@ -1,0 +1,213 @@
+{
+  "header": {
+    "title": "GOSSIP_CHRONICLES // FREIHEITSCHRONIKEN",
+    "years": "1450 — 2026+",
+    "subtitle": "Warum das Fernmeldegeheimnis und der freie Dialog die Zukunft der Menschheit bestimmen",
+    "soundOff": "Ton ausschalten",
+    "soundOn": "Ton einschalten"
+  },
+  "tabs": {
+    "epochs": "1. Chronik der Epochen",
+    "manifest": "2. Fernschreiber-Manifest",
+    "gliderKey": "3. Gleiter-Schlüssel"
+  },
+  "epochsView": {
+    "reporterChronicle": "REPORTER-CHRONIK // {{year}}",
+    "loading": "Lade Chronik...",
+    "epochCount": "Epoche {{current}} von {{total}}",
+    "threatLabel": "Was sie zu verbieten und vernichten suchten:",
+    "courageLabel": "Wie Menschen das Recht auf Wissen verteidigten:",
+    "legacyLabel": "Wohin der Sieg des freien Wortes führte:",
+    "nextEpoch": "Nächste Epoche",
+    "readManifest": "Manifest lesen"
+  },
+  "epochs": {
+    "gutenberg": {
+      "short": "Gutenberg",
+      "year": "1450",
+      "location": "Mainz, Deutschland / Europa",
+      "title": "Gutenbergs Buchdruck & Die Wissenschaftliche Revolution",
+      "subtitle": "Das Ende des Wissensmonopols und der Beginn der Aufklärung",
+      "threat": "Vor dem Buchdruck wurden Bücher jahrelang von Hand kopiert. Herrscher und Inquisitoren verlangten das Verbrennen von Druckereien unter Androhung der Todesstrafe.",
+      "courage": "Druckermeister schmuggelten bewegliche Lettern und druckten medizinische und philosophische Werke millionenfach in ganz Europa.",
+      "legacy": "Der Buchdruck löste die Revolution von Kopernikus und Newton aus, begründete die moderne Medizin und führte die Menschheit aus dem finsteren Mittelalter.",
+      "quote": "„Gebt den Menschen Licht, und sie werden ihren Weg finden.“",
+      "author": "Dante Alighieri / Tradition der Aufklärung",
+      "tags": [
+        "Wissenschaftliche Revolution",
+        "Buchdruck",
+        "Aufklärung"
+      ]
+    },
+    "zenger": {
+      "short": "Zenger",
+      "year": "1735",
+      "location": "New York, USA / Großbritannien",
+      "title": "Der Prozess von John Peter Zenger: „Wahrheit ist kein Verbrechen“",
+      "subtitle": "Geburt der freien Presse und des Ersten Verfassungszusatzes",
+      "threat": "Gouverneur William Cosby warf Zenger ins Gefängnis, weil er Korruptionsberichte veröffentlichte. Kritik galt als Hochverrat.",
+      "courage": "Der 80-jährige Anwalt Andrew Hamilton überzeugte die Geschworenen, dass das Aussprechen der Wahrheit ein unveräußerliches Bürgerrecht ist. Zenger wurde freigesprochen.",
+      "legacy": "Dieser Prozess verankerte die Pressefreiheit als unverzichtbares Schutzschild gegen Willkür und Tyrannei.",
+      "quote": "„Die Freiheit, die Wahrheit zu sagen, ist der einzige Schild der Schwachen gegen die Mächtigen.“",
+      "author": "Andrew Hamilton, Gerichtsrede (1735)",
+      "tags": [
+        "Freie Rede",
+        "Rechtsschutz",
+        "Antikorruption"
+      ]
+    },
+    "samizdat": {
+      "short": "Samisdat",
+      "year": "1960–1980er",
+      "location": "UdSSR / Osteuropa",
+      "title": "Die Ära des Samisdat: Erika-Schreibmaschinen und 4 Kohlepapiere",
+      "subtitle": "Kultureller Widerstand gegen die allumfassende Zensur",
+      "threat": "Staatliche Zensurbehörden kontrollierten jedes gedruckte Wort. Meisterwerke der Weltliteratur waren verboten, Kopiergeräte streng überwacht.",
+      "courage": "Bürger tippten nachts heimlich mehrere Durchschläge mit Kohlepapier und gaben handgebundene Manuskripte unter Arrestgefahr weiter.",
+      "legacy": "Der Samisdat rettete das kulturelle Erbe vor dem Vergessen und bewies: Der Freiheitsdrang ist stärker als jede Zensur.",
+      "quote": "„Ein Wort der Wahrheit wiegt die ganze Welt auf.“",
+      "author": "Alexander Solschenizyn, Nobelpreis-Vorlesung",
+      "tags": [
+        "Samisdat",
+        "Kulturerbe",
+        "Widerstandskraft"
+      ]
+    },
+    "crypto_wars": {
+      "short": "PGP",
+      "year": "1991–1996",
+      "location": "Kalifornien, USA / Global",
+      "title": "Die Ersten Krypto-Kriege und Phil Zimmermann: Geburt von PGP",
+      "subtitle": "Wie der Quellcode in Buchform das Briefgeheimnis im digitalen Zeitalter rettete",
+      "threat": "Behörden versuchten, starke Verschlüsselung für Bürger zu verbieten und Spionagechips in allen Computern vorzuschreiben.",
+      "courage": "Phil Zimmermann schuf PGP kostenlos. Aktivisten druckten den gesamten Quellcode als physisches Buch, das durch die Pressefreiheit geschützt war.",
+      "legacy": "Der Sieg der Cypherpunks legalisierte die Kryptographie und ermöglichte HTTPS, Online-Banking und Privatsphäre für Milliarden Menschen.",
+      "quote": "„Wenn Privatsphäre verboten wird, haben nur noch Gesetzlose Privatsphäre.“",
+      "author": "Phil Zimmermann, PGP-Schöpfer (1991)",
+      "tags": [
+        "Krypto-Kriege",
+        "PGP & HTTPS",
+        "Cypherpunks"
+      ]
+    },
+    "digital_mesh": {
+      "short": "Mesh",
+      "year": "2010–2020er",
+      "location": "Asien, Naher Osten, Afrika, Lateinamerika",
+      "title": "Digitaler Widerstand: Mesh-Netzwerke bei totalen Blackouts",
+      "subtitle": "Gegenseitige Hilfe und Lebensrettung bei Netzabschaltungen",
+      "threat": "Regierungen kappten bei Krisen Mobilfunk und Internet und legten Rettungsdienste und Berichterstattung lahm.",
+      "courage": "Entwickler und Freiwillige bauten ad-hoc BLE/WLAN-Mesh-Netzwerke auf, die Nachrichten direkt von Smartphone zu Smartphone weiterleiteten.",
+      "legacy": "Netzabschaltungen schaden der Wirtschaft, während autonome Mesh-Netze Leben retten und die Wahrheit dokumentieren.",
+      "quote": "„Wenn sie die Kabel kappen, geht die Verbindung über die Luft zwischen uns weiter.“",
+      "author": "Chronik digitaler Aktivisten, Mesh-Manifest",
+      "tags": [
+        "BLE Mesh",
+        "Anti-Blackout",
+        "Autonomer Funk"
+      ]
+    },
+    "future": {
+      "short": "Gossip",
+      "year": "2026+",
+      "location": "Globaler Digitaler Raum",
+      "title": "Souveräne Privatsphäre: Post-Quanten-MLS und Gossip Mesh",
+      "subtitle": "Eine Zukunft, in der Kommunikation den Menschen gehört und nicht Servern",
+      "threat": "DPI-Überwachung, Cloud-Monopole und Quantenentschlüsselung erfordern ein neues, unknackbares Fundament.",
+      "courage": "Gossip verzichtet auf Zentralserver: Alle Daten liegen im lokalen verschlüsselten SQLite auf Ihrem Gerät, geschützt durch Post-Quanten-MLS.",
+      "legacy": "Das Fernmeldegeheimnis ist ein unveräußerliches Menschenrecht (Art. 12 AEMR). Freie Information treibt die Wissenschaft voran.",
+      "quote": "„Das Recht auf das Geheimnis der Gedanken ist das Fundament jedes freien Geistes.“",
+      "author": "Gossip Protocol Manifest",
+      "tags": [
+        "Post-Quanten-MLS",
+        "Lokales SQLite",
+        "Dezentralisierung"
+      ]
+    }
+  },
+  "manifestView": {
+    "active": "FERNSCHREIBER DER FREIEN REDE",
+    "paused": "FERNSCHREIBER: PAUSIERT",
+    "pause": "Pause",
+    "resume": "Fortsetzen",
+    "speed": "Geschwindigkeit:",
+    "all": "Alles",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "scrollToBottom": "Nach unten scrollen",
+    "restart": "Von vorn beginnen",
+    "createGliderKey": "Gleiter-Schlüssel erstellen",
+    "lines": [
+      "=== CHRONIKEN DER INFORMATIONSFREIHEIT // GOSSIP PROTOCOL ===",
+      "",
+      "> [STATUS] Protokoll der freien Rede aktiv.",
+      "> [AXIOM] Information ist keine Waffe. Information ist Licht.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "1. WARUM DAS BRIEFGEHEIMNIS GRUNDLEGENDE SICHERHEITSHYGIENE IST",
+      "--------------------------------------------------------------------------------",
+      "Man fragt Sie oft: „Wenn Sie nichts zu verbergen haben, wozu Verschlüsselung?“",
+      "Das ist ein gefährlicher Trugschluss. Die Haustür abzuschließen ist kein Schuldeingeständnis.",
+      "Es ist ein natürliches Recht auf Privatsphäre und Menschenwürde.",
+      "",
+      "Ohne Kryptographie und Briefgeheimnis existieren nicht mehr:",
+      "  • Das Arztgeheimnis und die vertrauensvolle Behandlung;",
+      "  • Das Anwaltsgeheimnis und eine faire Justiz;",
+      "  • Die Bankensicherheit und der Schutz der Ersparnisse;",
+      "  • Der Schutz von Forschern und Erfindern vor Patentdiebstahl;",
+      "  • Der private Rückzugsraum, Gedankenfreiheit und Menschenwürde.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "2. WOHIN VERBOTE UND ZENSUR IN DER GESCHICHTE IMMER FÜHRTEN",
+      "--------------------------------------------------------------------------------",
+      "Jedes Mal, wenn die Weitergabe von Wissen verboten wurde:",
+      "  [!] Das Verbot des Buchdrucks im 15. Jh. stürzte Regionen in Elend und Aberglauben.",
+      "  [!] Das Verschweigen von Cholera- und Pestepidemien vervielfachte die Todesopfer.",
+      "  [!] Das Verbot von Genetik und Kybernetik warf die Biologie um 40 Jahre zurück.",
+      "  [!] Die Vertuschung von Tschernobyl 1986 kostete Tausende ahnungslose Leben.",
+      "",
+      "Zensur und Netzsperren haben nie Probleme gelöst — sie haben nur den Verfall zementiert.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "3. WAS DER FREIE WISSENSAUSTAUSCH DER MENSCHHEIT BRINGT",
+      "--------------------------------------------------------------------------------",
+      "  [+] Open Access ermöglichte lebensrettende Medikamente in Rekordzeit.",
+      "  [+] Freie Berichterstattung deckt Korruption vor Katastrophen auf.",
+      "  [+] Open-Source-Kryptographie schuf die globale Online-Wirtschaft und HTTPS.",
+      "  [+] Autonome Mesh-Netzwerke retten Verletzte und koordinieren Hilfe bei Unwettern.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "4. UNSER PRINZIP: KOMMUNIKATION OHNE HERRSCHER UND VERMITTLER",
+      "--------------------------------------------------------------------------------",
+      "Gossip wurde geschaffen, damit Ihre Stimme Ihre eigene bleibt:",
+      "  • Ihre Daten verbleiben in der lokalen verschlüsselten SQLite-Datenbank auf Ihrem Gerät.",
+      "  • Keine Server lesen oder speichern Ihre Nachrichten.",
+      "  • Fällt das Internet aus, verbindet Bluetooth Mesh die Menschen direkt.",
+      "",
+      "„Man kann einen Server sperren, aber man kann keine Idee aufhalten, deren Zeit gekommen ist.“",
+      "--------------------------------------------------------------------------------",
+      "[FAZIT] Informationsfreiheit ist der Motor von Wissenschaft, Wohlstand und Menschenwürde."
+    ]
+  },
+  "gliderView": {
+    "title": "Gleiter der Souveränität",
+    "desc": "Generieren Sie einen mathematischen Conway Glider basierend auf Ihrem Namen — ein digitales Symbol für das Recht auf Gedankenfreiheit.",
+    "inputLabel": "Name des souveränen Knotens",
+    "inputPlaceholder": "Geben Sie Ihren Knotennamen ein...",
+    "generating": "Berechne Automaten-Matrix...",
+    "generateBtn": "Digitales Emblem generieren",
+    "principleTitle": "Prinzip der Souveränität:",
+    "principleDesc": "Ihr Emblem und Schlüssel werden lokal auf Ihrem Prozessor berechnet und in der verschlüsselten SQLite-Datenbank gespeichert.",
+    "nodeLabel": "KNOTEN:",
+    "statusFull": "STATUS: VOLLE DIGITALE SOUVERÄNITÄT",
+    "copyManifest": "Manifest",
+    "manifestCopied": "Manifest kopiert!",
+    "toProfile": "Zum Profil",
+    "activated": "Aktiviert ✓",
+    "waitingInput": "Warte auf Eingabe des Knotennamens zum Start des zellulären Automaten..."
+  },
+  "footer": {
+    "article": "FREEDOM_OF_INFORMATION // ARTICLE_12_UN",
+    "copyright": "© 2026 GOSSIP NETWORK INFRASTRUCTURE"
+  }
+}

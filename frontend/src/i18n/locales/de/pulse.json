@@ -1,0 +1,92 @@
+{
+  "title": "Gossip Pulse & Absichtsradar",
+  "tabs": {
+    "forYou": "Für dich",
+    "nearby": "In der Nähe (H3)",
+    "subscriptions": "Abonnements",
+    "trends": "Trends",
+    "feed": "Absichts-Feed",
+    "zkAttest": "ZK-Zertifikate",
+    "escrow": "DvP-Smart-Treuhand"
+  },
+  "stories": {
+    "title": "Stories",
+    "create": "Story erstellen",
+    "viewAll": "Alle ansehen"
+  },
+  "createModal": {
+    "title": "Pulse-Absicht erstellen",
+    "quickMode": "Schnellvoreinstellung (30s)",
+    "legoMode": "Lego-Baukasten",
+    "titleLabel": "Titel der Absicht",
+    "titlePlaceholder": "Kurze Zusammenfassung Ihres Angebots oder Ihrer Anfrage...",
+    "descLabel": "Detaillierte Beschreibung",
+    "descPlaceholder": "Beschreiben Sie Bedingungen, Details und Anforderungen...",
+    "domainLabel": "Interaktionskategorie",
+    "domains": {
+      "p2p": "P2P-Tausch / Deal",
+      "gig": "Freelance / Auftrag (DvP)",
+      "consensus": "Abstimmung / Umfrage",
+      "aid": "Gegenseitige Hilfe / Spendenaktion",
+      "events": "Veranstaltung / Treffen",
+      "trade": "Außenhandel & Export",
+      "civic": "Bürgerschaftliche Wahl",
+      "whistleblow": "Hinweise & Zeugnisse"
+    },
+    "accordions": {
+      "trust": "Vertrauen & ZK-Reputation",
+      "escrow": "Smart Escrow (DvP-Schutz)",
+      "privacy": "Datenschutz & Anonymität",
+      "settlement": "Währung & Abwicklung",
+      "spatial": "Räumliche H3-Res-8-Ortung",
+      "quorum": "Quorum & Streitschlichtung"
+    },
+    "publishButton": "In Pulse veröffentlichen",
+    "publishing": "Absicht wird veröffentlicht...",
+    "anonymousToggle": "Anonyme Veröffentlichung (ZK-Nullifier)",
+    "titleHuman": "Neues Inserat"
+  },
+  "card": {
+    "anonymousAuthor": "Anonymes Mitglied",
+    "reputationScore": "ZK-Reputation: {{score}}",
+    "expiresIn": "Verbleibende Zeit: {{time}}",
+    "respondButton": "Antworten",
+    "startDeal": "Sicheren Deal starten",
+    "tipTon": "TON-Trinkgeld",
+    "like": "Gefällt mir",
+    "comments": "Kommentare ({{count}})",
+    "share": "Teilen"
+  },
+  "hub": {
+    "title": "Gossip Pulse & Souveräne Wirtschaftsebene (SEL)",
+    "subtitle": "Von P2P-Geschäften bis zu internationalen Abrechnungen",
+    "tabsFeed": "Absichts-Feed",
+    "tabsZkAttest": "ZK-Zertifikate",
+    "tabsEscrow": "DvP-Smart-Treuhand",
+    "titleHuman": "Pulse & P2P-Geschäfte",
+    "subtitleHuman": "Direkte Inserate, sichere Smart-Contract-Treuhand und Reputationsnachweise",
+    "tabsFeedHuman": "Inserate-Feed",
+    "tabsZkAttestHuman": "Meine Zertifikate",
+    "tabsEscrowHuman": "Treuhand-Deals"
+  },
+  "feed": {
+    "searchPlaceholder": "Absichten, Angebote, Petitionen und Projekte suchen...",
+    "geoRadarBtn": "Radar: {{radius}} km",
+    "geoRadarOff": "Geo-Radar aus",
+    "filterAll": "Alle Bereiche",
+    "filterP2p": "P2P-Währung",
+    "filterTrade": "Handel & Export",
+    "filterCivic": "Bürgerinitiative",
+    "filterAid": "Gemeinschaftshilfe",
+    "filterGig": "Aufgaben & Gigs",
+    "filterWhistleblow": "Hinweise"
+  },
+  "feedback": {
+    "modalTitle": "⭐ Bewertung des Transaktionspartners (ZK Dual-Blind)",
+    "counterparty": "Transaktionspartner",
+    "ratingLabel": "Ihre Bewertung der Interaktion:",
+    "tagsLabel": "Tags auswählen (bis zu 4):",
+    "dualBlindInfo": "Doppelblind-Festlegung: Ihre Bewertung ist per Hash versiegelt und wird erst enthüllt, wenn beide Parteien bewertet haben.",
+    "submit": "Bewertung bestätigen und absenden"
+  }
+}

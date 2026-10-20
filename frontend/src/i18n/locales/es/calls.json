@@ -1,0 +1,40 @@
+{
+  "incoming": {
+    "title": "Llamada entrante",
+    "subtitleAudio": "Llamada de audio Gossip E2EE...",
+    "subtitleVideo": "Videollamada Gossip E2EE...",
+    "acceptAudio": "Responder",
+    "acceptVideo": "Responder con video",
+    "decline": "Rechazar"
+  },
+  "outgoing": {
+    "calling": "Llamando...",
+    "ringing": "Timbrando...",
+    "waitingForAnswer": "Esperando respuesta...",
+    "cancel": "Cancelar"
+  },
+  "active": {
+    "audioCall": "Llamada de audio",
+    "videoCall": "Videollamada",
+    "duration": "{{duration}}",
+    "e2eeStatus": "Protegido con MLS WebRTC E2EE",
+    "e2eeVerified": "Cifrado de extremo a extremo verificado",
+    "muteAudio": "Silenciar micrófono",
+    "unmuteAudio": "Activar micrófono",
+    "muteVideo": "Apagar cámara",
+    "unmuteVideo": "Encender cámara",
+    "switchCamera": "Cambiar cámara",
+    "screenShare": "Compartir pantalla",
+    "endCall": "Finalizar llamada",
+    "reconnecting": "Reconectando...",
+    "connecting": "Estableciendo conexión segura..."
+  },
+  "groupCall": {
+    "title": "Videollamada grupal",
+    "participantsCount": "Participantes ({{count}})",
+    "join": "Unirse",
+    "leave": "Salir de la llamada",
+    "raiseHand": "Levantar la mano",
+    "handRaised": "Mano levantada"
+  }
+}

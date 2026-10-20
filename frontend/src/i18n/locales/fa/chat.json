@@ -1,0 +1,160 @@
+{
+  "list": {
+    "title": "گفتگوها",
+    "searchPlaceholder": "جستجوی گفتگوها و پیام‌ها...",
+    "allChatsTab": "همه",
+    "dlpSafeBadge": "گاوصندوق",
+    "emptyChats": "گفتگویی یافت نشد",
+    "noSearchResults": "موردی پیدا نشد",
+    "globalSearchTitle": "جستجوی سراسری",
+    "startChatPrompt": "برای شروع گفتگو ضربه بزنید",
+    "messagesSection": "پیام‌ها",
+    "createChatTooltip": "گفتگو / گروه جدید",
+    "prekeysPublishing": "در حال انتشار کلیدهای رمزنگاری روی سرور...",
+    "prekeysError": "خطا در انتشار کلیدهای رمزنگاری",
+    "selfAccount": "این حساب کاربری شماست",
+    "selectChatPrompt": "یک گفتگو را برای شروع پیام‌رسانی انتخاب کنید",
+    "emptyChatsTitle": "هنوز گفتگوی فعالی وجود ندارد",
+    "emptyChatsHint": "یک چت رمزنگاری‌شده با نام کاربری آغاز کنید یا با رادار آفلاین دستگاه‌های اطراف را بیابید",
+    "selectChatSub": "تمامی پیام‌ها با رمزنگاری سرتاسری روی دستگاه شما محافظت می‌شوند"
+  },
+  "folders": {
+    "modalTitle": "پوشه‌های گفتگو",
+    "modalTitleCreate": "ایجاد پوشه",
+    "modalTitleEdit": "ویرایش پوشه",
+    "createFolder": "ایجاد پوشه",
+    "emptyTitle": "هنوز پوشه‌ای ندارید",
+    "emptyDesc": "برای افزودن اولین پوشه روی «ایجاد» ضربه بزنید",
+    "folderName": "نام پوشه",
+    "folderNamePlaceholder": "مثال: کاری، خانواده، گاوصندوق...",
+    "folderIcon": "آیکون",
+    "includedChats": "گفتگوهای شامل‌شده",
+    "dlpContourToggle": "محدوده امن (DLP)",
+    "dlpContourDesc": "جلوگیری از کپی، هدایت و خروجی پیام‌های این پوشه",
+    "chatsCount": "گفتگوهای انتخاب‌شده: {{count}}",
+    "saveFolder": "ذخیره پوشه",
+    "deleteFolder": "حذف پوشه"
+  },
+  "header": {
+    "online": "آنلاین",
+    "offline": "اخیراً آنلاین بوده",
+    "typing": "در حال نوشتن...",
+    "recordingAudio": "در حال ضبط صدا...",
+    "recordingVideo": "در حال ضبط پیام ویدیویی...",
+    "groupMembers_one": "{{count}} عضو",
+    "groupMembers_few": "{{count}} عضو",
+    "groupMembers_many": "{{count}} عضو",
+    "groupMembers_other": "{{count}} عضو",
+    "menuSearch": "جستجو در گفتگو",
+    "menuTransfer": "انتقال رمزارز TON",
+    "menuWallet": "کیف پول TON",
+    "menuDlp": "محدوده امن (DLP)",
+    "menuGroupInfo": "اطلاعات گروه",
+    "menuDeleteChat": "حذف گفتگو",
+    "menuClearHistory": "پاک کردن تاریخچه",
+    "publicChannel": "کانال عمومی",
+    "groupChat": "گروه گفتگو",
+    "verifyEncryption": "بررسی کد امنیتی رمزنگاری چت",
+    "ttlTimer": "زمان‌سنج حذف خودکار پیام‌ها",
+    "scheduledMessages": "پیام‌های زمان‌بندی‌شده",
+    "scheduleCurrent": "زمان‌بندی ارسال پیام"
+  },
+  "pinned": {
+    "pinnedMessage": "پیام سنجاق‌شده",
+    "unpin": "برداشتن سنجاق",
+    "multiplePinned": "{{current}} از {{total}} پیام سنجاق‌شده"
+  },
+  "input": {
+    "placeholder": "پیام...",
+    "replyTitle": "پاسخ به پیام",
+    "editTitle": "ویرایش پیام",
+    "sendTooltip": "ارسال",
+    "recordVoiceTooltip": "برای ضبط صدا نگه دارید، برای ویدیوی دایره‌ای ضربه بزنید",
+    "recordVideoTooltip": "برای ویدیوی دایره‌ای نگه دارید، برای صدا ضربه بزنید",
+    "recordingVoice": "ضبط صدا: {{duration}} ثانیه",
+    "attachFile": "پیوست فایل، عکس یا ویدیو",
+    "emojiPicker": "شکلک‌ها و استیکرها",
+    "uploadingProgress": "در حال بارگذاری: {{progress}}%",
+    "uploadReady": "فایل آماده ارسال است",
+    "captionPlaceholder": "افزودن توضیحات...",
+    "emoji": "ایموجی و استیکرها"
+  },
+  "mediaDrawer": {
+    "title": "پیوست به پیام",
+    "liveCamera": "دوربین",
+    "gallery": "گالری",
+    "gallerySub": "رسانه",
+    "file": "فایل",
+    "fileSub": "سند",
+    "location": "موقعیت مکانی",
+    "tonTransfer": "TON",
+    "tonSub": "انتقال",
+    "fullscreen": "تمام‌صفحه",
+    "cameraSwitch": "تغییر دوربین",
+    "flashToggle": "فلاش"
+  },
+  "sharedMedia": {
+    "title": "رسانه‌های گفتگو",
+    "tabMedia": "رسانه‌ها",
+    "tabFiles": "فایل‌ها",
+    "tabVoice": "صداها",
+    "tabLinks": "لینک‌ها",
+    "emptyMedia": "رسانه مشترکی وجود ندارد",
+    "emptyFiles": "فایل پیوستی وجود ندارد",
+    "emptyVoice": "پیام صوتی وجود ندارد",
+    "emptyLinks": "لینک ذخیره‌شده‌ای وجود ندارد"
+  },
+  "messageMenu": {
+    "reply": "پاسخ",
+    "copy": "کپی متن",
+    "edit": "ویرایش",
+    "pin": "سنجاق کردن",
+    "unpin": "برداشتن سنجاق",
+    "forward": "هدایت",
+    "deleteForMe": "حذف برای من",
+    "deleteForEveryone": "حذف برای همه",
+    "saveMedia": "ذخیره فایل",
+    "report": "گزارش"
+  },
+  "serviceMessages": {
+    "sessionReset": "پیام سیستم: نشست رمزنگاری به‌روزرسانی شد",
+    "chatCreated": "گفتگو با محافظت MLS E2EE ایجاد شد",
+    "groupCreated": "گروه توسط {{user}} ایجاد شد",
+    "userJoined": "{{user}} به گروه پیوست",
+    "userLeft": "{{user}} گروه را ترک کرد"
+  },
+  "group": {
+    "manageTitle": "گروه: {{name}}",
+    "epochLabel": "دوره کنونی MLS:",
+    "addMember": "افزودن عضو",
+    "membersCount": "اعضا ({{count}})",
+    "removeMember": "حذف"
+  },
+  "bots": {
+    "title": "ربات‌ها و اتصالات",
+    "createNew": "ایجاد ربات جدید",
+    "tokenLabel": "توکن HTTP API ربات"
+  },
+  "audio": {
+    "recording": "ضبط صدا: {{duration}} ثانیه"
+  },
+  "edit": {
+    "title": "ویرایش پیام"
+  },
+  "file": {
+    "captionPhoto": "افزودن توضیحات به عکس...",
+    "captionVideo": "افزودن توضیحات به ویدیو...",
+    "preview": "پیش‌نمایش",
+    "ready": "فایل آماده ارسال است",
+    "uploading": "در حال بارگذاری روی سرور..."
+  },
+  "message": {
+    "me": "من"
+  },
+  "reply": {
+    "to": "پاسخ به {{user}}"
+  },
+  "newChat": {
+    "button": "چت جدید"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "list": {
+    "title": "المحادثات",
+    "searchPlaceholder": "البحث في المحادثات والرسائل...",
+    "allChatsTab": "الكل",
+    "dlpSafeBadge": "خزنة",
+    "emptyChats": "لا توجد محادثات",
+    "noSearchResults": "لم يتم العثور على نتائج",
+    "globalSearchTitle": "البحث العام",
+    "startChatPrompt": "انقر لبدء محادثة جديدة",
+    "messagesSection": "الرسائل",
+    "createChatTooltip": "محادثة / مجموعة جديدة",
+    "prekeysPublishing": "جارٍ نشر مفاتيح التشفير على الخادم...",
+    "prekeysError": "فشل نشر مفاتيح التشفير",
+    "selfAccount": "هذا هو حسابك",
+    "selectChatPrompt": "اختر محادثة لبدء المراسلة",
+    "emptyChatsTitle": "لا توجد محادثات نشطة بعد",
+    "emptyChatsHint": "ابدأ محادثة مشفرة باسم المستخدم أو اكتشف الأجهزة القريبة عبر الرادار غير المتصل",
+    "selectChatSub": "جميع الرسائل محمية بالتشفير التام بين الطرفين على جهازك"
+  },
+  "folders": {
+    "modalTitle": "مجلدات المحادثات",
+    "modalTitleCreate": "إنشاء مجلد",
+    "modalTitleEdit": "تعديل المجلد",
+    "createFolder": "إنشاء مجلد",
+    "emptyTitle": "ليس لديك مجلدات بعد",
+    "emptyDesc": "اضغط على «إنشاء» لإضافة أول مجلد لك",
+    "folderName": "اسم المجلد",
+    "folderNamePlaceholder": "مثال: العمل، العائلة، الخزنة...",
+    "folderIcon": "الأيقونة",
+    "includedChats": "المحادثات المضمنة",
+    "dlpContourToggle": "النطاق الآمن (حماية DLP)",
+    "dlpContourDesc": "منع نسخ أو إعادة توجيه أو تصدير الرسائل من هذا المجلد",
+    "chatsCount": "المحادثات المحددة: {{count}}",
+    "saveFolder": "حفظ المجلد",
+    "deleteFolder": "حذف المجلد"
+  },
+  "header": {
+    "online": "متصل",
+    "offline": "شوهد مؤخراً",
+    "typing": "يكتب الآن...",
+    "recordingAudio": "يسجل مقطعاً صوتياً...",
+    "recordingVideo": "يسجل رسالة مرئية...",
+    "groupMembers_zero": "٠ عضو",
+    "groupMembers_one": "عضو واحد",
+    "groupMembers_two": "عضوان",
+    "groupMembers_few": "{{count}} أعضاء",
+    "groupMembers_many": "{{count}} عضواً",
+    "groupMembers_other": "{{count}} عضو",
+    "menuSearch": "بحث في المحادثة",
+    "menuTransfer": "تحويل TON مشفر",
+    "menuWallet": "محفظة TON",
+    "menuDlp": "النطاق الآمن (DLP)",
+    "menuGroupInfo": "معلومات المجموعة",
+    "menuDeleteChat": "حذف المحادثة",
+    "menuClearHistory": "مسح السجل",
+    "publicChannel": "قناة عامة",
+    "groupChat": "مجموعة دردشة",
+    "verifyEncryption": "التحقق من رمز أمان التشفير",
+    "ttlTimer": "مؤقت التدمير الذاتي للرسائل",
+    "scheduledMessages": "الرسائل المجدولة",
+    "scheduleCurrent": "جدولة إرسال الرسالة"
+  },
+  "pinned": {
+    "pinnedMessage": "رسالة مثبتة",
+    "unpin": "إلغاء التثبيت",
+    "multiplePinned": "{{current}} من {{total}} مثبتات"
+  },
+  "input": {
+    "placeholder": "اكتب رسالة...",
+    "replyTitle": "الرد على الرسالة",
+    "editTitle": "تعديل الرسالة",
+    "sendTooltip": "إرسال",
+    "recordVoiceTooltip": "اضغط باستمرار لتسجيل الصوت، اضغط للمرئي",
+    "recordVideoTooltip": "اضغط باستمرار لتسجيل المرئي، اضغط للصوت",
+    "recordingVoice": "تسجيل صوتي: {{duration}} ثانية",
+    "attachFile": "إرفاق ملف أو صورة أو فيديو",
+    "emojiPicker": "الرموز والملصقات",
+    "uploadingProgress": "جارٍ الرفع: {{progress}}%",
+    "uploadReady": "الملف جاهز للإرسال",
+    "captionPlaceholder": "إضافة وصف...",
+    "emoji": "الرموز التعبيرية والملصقات"
+  },
+  "mediaDrawer": {
+    "title": "إرفاق بالمحادثة",
+    "liveCamera": "الكاميرا",
+    "gallery": "المعرض",
+    "gallerySub": "وسائط",
+    "file": "ملف",
+    "fileSub": "مستند",
+    "location": "الموقع",
+    "tonTransfer": "TON",
+    "tonSub": "تحويل",
+    "fullscreen": "ملء الشاشة",
+    "cameraSwitch": "تبديل الكاميرا",
+    "flashToggle": "الفلاش"
+  },
+  "sharedMedia": {
+    "title": "وسائط المحادثة",
+    "tabMedia": "الوسائط",
+    "tabFiles": "الملفات",
+    "tabVoice": "الصوتيات",
+    "tabLinks": "الروابط",
+    "emptyMedia": "لا توجد وسائط مشتركة",
+    "emptyFiles": "لا توجد ملفات مرفقة",
+    "emptyVoice": "لا توجد رسائل صوتية",
+    "emptyLinks": "لا توجد روابط محفوظة"
+  },
+  "messageMenu": {
+    "reply": "رد",
+    "copy": "نسخ النص",
+    "edit": "تعديل",
+    "pin": "تثبيت",
+    "unpin": "إلغاء التثبيت",
+    "forward": "إعادة توجيه",
+    "deleteForMe": "حذف لدي",
+    "deleteForEveryone": "حذف لدى الجميع",
+    "saveMedia": "حفظ الملف",
+    "report": "إبلاغ"
+  },
+  "serviceMessages": {
+    "sessionReset": "رسالة نظام: تم تجديد الجلسة التشفيرية بنجاح",
+    "chatCreated": "تم إنشاء المحادثة بحماية MLS E2EE",
+    "groupCreated": "تم إنشاء المجموعة بواسطة {{user}}",
+    "userJoined": "انضم {{user}} إلى المجموعة",
+    "userLeft": "غادر {{user}} المجموعة"
+  },
+  "group": {
+    "manageTitle": "المجموعة: {{name}}",
+    "epochLabel": "حقبة MLS الحالية:",
+    "addMember": "إضافة عضو",
+    "membersCount": "الأعضاء ({{count}})",
+    "removeMember": "إزالة"
+  },
+  "bots": {
+    "title": "البوتات والتكاملات",
+    "createNew": "إنشاء بوت جديد",
+    "tokenLabel": "رمز HTTP API للبوت"
+  },
+  "audio": {
+    "recording": "تسجيل صوتي: {{duration}} ثانية"
+  },
+  "edit": {
+    "title": "تعديل الرسالة"
+  },
+  "file": {
+    "captionPhoto": "إضافة تعليق للصورة...",
+    "captionVideo": "إضافة تعليق للفيديو...",
+    "preview": "معاينة",
+    "ready": "الملف جاهز للإرسال",
+    "uploading": "جارٍ الرفع إلى الخادم..."
+  },
+  "message": {
+    "me": "أنا"
+  },
+  "reply": {
+    "to": "الرد على {{user}}"
+  },
+  "newChat": {
+    "button": "محادثة جديدة"
+  }
+}

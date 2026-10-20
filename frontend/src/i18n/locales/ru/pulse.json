@@ -1,0 +1,92 @@
+{
+  "title": "Пульс",
+  "tabs": {
+    "forYou": "Для вас",
+    "nearby": "Рядом (H3)",
+    "subscriptions": "Подписки",
+    "trends": "Тренды",
+    "feed": "Лента намерений",
+    "zkAttest": "ZK-Аттестаты",
+    "escrow": "DvP Смарт-Эскроу"
+  },
+  "stories": {
+    "title": "Истории",
+    "create": "Создать историю",
+    "viewAll": "Смотреть все"
+  },
+  "createModal": {
+    "title": "Создать намерение в Pulse",
+    "quickMode": "Быстрый пресет (30 сек)",
+    "legoMode": "Lego-конструктор",
+    "titleLabel": "Заголовок намерения",
+    "titlePlaceholder": "Краткая суть вашего предложения или запроса...",
+    "descLabel": "Подробное описание",
+    "descPlaceholder": "Опишите условия, детали и требования...",
+    "domainLabel": "Категория взаимодействия",
+    "domains": {
+      "p2p": "P2P Обмен / Сделка",
+      "gig": "Фриланс / Работа (DvP)",
+      "consensus": "Голосование / Опрос",
+      "aid": "Взаимопомощь / Сбор",
+      "events": "Событие / Встреча",
+      "trade": "ВЭД & Торговля",
+      "civic": "Гражданский выбор",
+      "whistleblow": "Свидетельства"
+    },
+    "accordions": {
+      "trust": "Доверие и ZK-Репутация",
+      "escrow": "Смарт-Эскроу (DvP защита)",
+      "privacy": "Приватность и анонимность",
+      "settlement": "Валюта и расчеты",
+      "spatial": "Гео-привязка H3 Res 8",
+      "quorum": "Кворум и арбитраж"
+    },
+    "publishButton": "Опубликовать в Pulse",
+    "publishing": "Публикация намерения...",
+    "anonymousToggle": "Анонимная публикация (ZK-Nullifier)",
+    "titleHuman": "Новое объявление"
+  },
+  "card": {
+    "anonymousAuthor": "Анонимный участник",
+    "reputationScore": "ZK-Репутация: {{score}}",
+    "expiresIn": "Осталось: {{time}}",
+    "respondButton": "Откликнуться",
+    "startDeal": "Открыть безопасную сделку",
+    "tipTon": "Чаевые TON",
+    "like": "Нравится",
+    "comments": "Комментарии ({{count}})",
+    "share": "Поделиться"
+  },
+  "hub": {
+    "title": "Gossip Pulse & Sovereign Economic Layer",
+    "subtitle": "От P2P-сделок до международных расчетов",
+    "tabsFeed": "Лента намерений",
+    "tabsZkAttest": "ZK-Аттестаты",
+    "tabsEscrow": "DvP Смарт-Эскроу",
+    "titleHuman": "Пульс и P2P-Сделки",
+    "subtitleHuman": "Прямые объявления, безопасные сделки через смарт-контракт и проверка репутации",
+    "tabsFeedHuman": "Лента объявлений",
+    "tabsZkAttestHuman": "Мои аттестаты",
+    "tabsEscrowHuman": "Сделки Эскроу"
+  },
+  "feed": {
+    "searchPlaceholder": "Поиск намерений, офферов, петиций и проектов...",
+    "geoRadarBtn": "Радар: {{radius}} км",
+    "geoRadarOff": "Гео-радар выкл",
+    "filterAll": "Все домены",
+    "filterP2p": "P2P Валюта",
+    "filterTrade": "ВЭД & Торговля",
+    "filterCivic": "Гражданский выбор",
+    "filterAid": "Взаимопомощь",
+    "filterGig": "Задачи & Работа",
+    "filterWhistleblow": "Свидетельства"
+  },
+  "feedback": {
+    "modalTitle": "⭐ Оценка контрагента (ZK Dual-Blind)",
+    "counterparty": "Контрагент сделки",
+    "ratingLabel": "Ваша оценка взаимодействия:",
+    "tagsLabel": "Выберите теги (до 4):",
+    "dualBlindInfo": "Dual-Blind Commit: ваша оценка запечатана хэшем и раскроется одновременно со второй стороной. Месть или зеркальный шантаж исключены.",
+    "submit": "Подтвердить и отправить отзыв"
+  }
+}

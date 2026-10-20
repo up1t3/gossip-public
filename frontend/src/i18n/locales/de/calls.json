@@ -1,0 +1,40 @@
+{
+  "incoming": {
+    "title": "Eingehender Anruf",
+    "subtitleAudio": "Gossip E2EE-Audioanruf...",
+    "subtitleVideo": "Gossip E2EE-Videoanruf...",
+    "acceptAudio": "Annehmen",
+    "acceptVideo": "Mit Video annehmen",
+    "decline": "Ablehnen"
+  },
+  "outgoing": {
+    "calling": "Wird angerufen...",
+    "ringing": "Es läutet...",
+    "waitingForAnswer": "Warten auf Antwort...",
+    "cancel": "Abbrechen"
+  },
+  "active": {
+    "audioCall": "Audioanruf",
+    "videoCall": "Videoanruf",
+    "duration": "{{duration}}",
+    "e2eeStatus": "Geschützt durch MLS WebRTC E2EE",
+    "e2eeVerified": "Ende-zu-Ende-Verschlüsselung verifiziert",
+    "muteAudio": "Mikrofon stummschalten",
+    "unmuteAudio": "Mikrofon einschalten",
+    "muteVideo": "Kamera ausschalten",
+    "unmuteVideo": "Kamera einschalten",
+    "switchCamera": "Kamera wechseln",
+    "screenShare": "Bildschirmfreigabe",
+    "endCall": "Anruf beenden",
+    "reconnecting": "Wiederverbindung...",
+    "connecting": "Sichere Verbindung wird hergestellt..."
+  },
+  "groupCall": {
+    "title": "Gruppen-Videoanruf",
+    "participantsCount": "Teilnehmer ({{count}})",
+    "join": "Beitreten",
+    "leave": "Anruf verlassen",
+    "raiseHand": "Hand heben",
+    "handRaised": "Hand gehoben"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "list": {
+    "title": "Chats",
+    "searchPlaceholder": "Search chats and messages...",
+    "allChatsTab": "All",
+    "dlpSafeBadge": "Vault",
+    "emptyChats": "No chats found",
+    "noSearchResults": "Nothing found",
+    "globalSearchTitle": "Global Search",
+    "startChatPrompt": "Click to start chatting",
+    "messagesSection": "Messages",
+    "createChatTooltip": "New chat / group",
+    "prekeysPublishing": "Publishing encryption keys to server...",
+    "prekeysError": "Failed to publish encryption keys",
+    "selfAccount": "This is your account",
+    "selectChatPrompt": "Select a chat to start messaging",
+    "emptyChatsTitle": "No active conversations yet",
+    "emptyChatsHint": "Start an encrypted chat by username or discover nearby devices via the offline radar",
+    "selectChatSub": "All messages are protected with end-to-end encryption on your device"
+  },
+  "folders": {
+    "modalTitle": "Chat Folders",
+    "modalTitleCreate": "Create Folder",
+    "modalTitleEdit": "Edit Folder",
+    "createFolder": "Create Folder",
+    "emptyTitle": "You have no folders yet",
+    "emptyDesc": "Click \"Create\" to add your first folder",
+    "folderName": "Folder Name",
+    "folderNamePlaceholder": "E.g.: Work, Family, Vault...",
+    "folderIcon": "Icon",
+    "includedChats": "Included Chats",
+    "dlpContourToggle": "Safe Contour (DLP / Compliance)",
+    "dlpContourDesc": "Prevents copying, forwarding, and exporting messages from this folder",
+    "chatsCount": "Selected chats: {{count}}",
+    "saveFolder": "Save Folder",
+    "deleteFolder": "Delete Folder"
+  },
+  "header": {
+    "online": "online",
+    "offline": "last seen recently",
+    "typing": "typing...",
+    "recordingAudio": "recording audio...",
+    "recordingVideo": "recording video note...",
+    "groupMembers_one": "{{count}} member",
+    "groupMembers_few": "{{count}} members",
+    "groupMembers_many": "{{count}} members",
+    "groupMembers_other": "{{count}} members",
+    "menuSearch": "Search in Chat",
+    "menuTransfer": "TON Crypto Transfer",
+    "menuWallet": "TON Crypto Wallet",
+    "menuDlp": "Safe Contour (DLP)",
+    "menuGroupInfo": "Group Info",
+    "menuDeleteChat": "Delete Chat",
+    "menuClearHistory": "Clear History",
+    "publicChannel": "Public Channel",
+    "groupChat": "Group Chat",
+    "verifyEncryption": "Verify encryption safety number",
+    "ttlTimer": "Disappearing messages timer",
+    "scheduledMessages": "Scheduled messages",
+    "scheduleCurrent": "Schedule message delivery"
+  },
+  "pinned": {
+    "pinnedMessage": "Pinned Message",
+    "unpin": "Unpin",
+    "multiplePinned": "{{current}} of {{total}} pinned"
+  },
+  "input": {
+    "placeholder": "Message",
+    "replyTitle": "Replying to message",
+    "editTitle": "Editing message",
+    "sendTooltip": "Send",
+    "recordVoiceTooltip": "Hold to record voice, tap for video note",
+    "recordVideoTooltip": "Hold to record video note, tap for voice",
+    "recordingVoice": "Recording audio: {{duration}}s",
+    "attachFile": "Attach file, photo or video",
+    "emojiPicker": "Emoji & Stickers",
+    "uploadingProgress": "Uploading to server: {{progress}}%",
+    "uploadReady": "File ready to send",
+    "captionPlaceholder": "Add a caption...",
+    "emoji": "Emoji & Stickers"
+  },
+  "mediaDrawer": {
+    "title": "Attach to message",
+    "liveCamera": "Camera",
+    "gallery": "Gallery",
+    "gallerySub": "Media",
+    "file": "File",
+    "fileSub": "Document",
+    "location": "Location",
+    "tonTransfer": "TON",
+    "tonSub": "Transfer",
+    "fullscreen": "Fullscreen",
+    "cameraSwitch": "Switch Camera",
+    "flashToggle": "Flash"
+  },
+  "sharedMedia": {
+    "title": "Shared Media",
+    "tabMedia": "Media",
+    "tabFiles": "Files",
+    "tabVoice": "Voice",
+    "tabLinks": "Links",
+    "emptyMedia": "No shared media files",
+    "emptyFiles": "No attached files",
+    "emptyVoice": "No voice messages",
+    "emptyLinks": "No saved links"
+  },
+  "messageMenu": {
+    "reply": "Reply",
+    "copy": "Copy Text",
+    "edit": "Edit",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "forward": "Forward",
+    "deleteForMe": "Delete for Me",
+    "deleteForEveryone": "Delete for Everyone",
+    "saveMedia": "Save File",
+    "report": "Report"
+  },
+  "serviceMessages": {
+    "sessionReset": "System message: cryptographic session renewed",
+    "chatCreated": "Chat created with MLS E2EE protection",
+    "groupCreated": "Group created by {{user}}",
+    "userJoined": "{{user}} joined the group",
+    "userLeft": "{{user}} left the group"
+  },
+  "group": {
+    "manageTitle": "Group: {{name}}",
+    "epochLabel": "Current MLS Epoch:",
+    "addMember": "Add Member",
+    "membersCount": "Members ({{count}})",
+    "removeMember": "Remove"
+  },
+  "bots": {
+    "title": "Bots & Integrations",
+    "createNew": "Create New Bot",
+    "tokenLabel": "Bot HTTP API Token"
+  },
+  "audio": {
+    "recording": "Recording audio: {{duration}}s"
+  },
+  "edit": {
+    "title": "Editing message"
+  },
+  "file": {
+    "captionPhoto": "Add a photo caption...",
+    "captionVideo": "Add a video caption...",
+    "preview": "Preview",
+    "ready": "File ready to send",
+    "uploading": "Uploading to server..."
+  },
+  "message": {
+    "me": "Me"
+  },
+  "reply": {
+    "to": "Replying to {{user}}"
+  },
+  "newChat": {
+    "button": "New Chat"
+  }
+}

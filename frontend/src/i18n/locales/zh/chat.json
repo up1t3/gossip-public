@@ -1,0 +1,160 @@
+{
+  "list": {
+    "title": "会话",
+    "searchPlaceholder": "搜索对话与消息记录...",
+    "allChatsTab": "全部",
+    "dlpSafeBadge": "保险箱",
+    "emptyChats": "未找到会话",
+    "noSearchResults": "无搜索结果",
+    "globalSearchTitle": "全局搜索",
+    "startChatPrompt": "点击开始新的对话",
+    "messagesSection": "消息",
+    "createChatTooltip": "新建会话 / 群组",
+    "prekeysPublishing": "正在向服务器发布加密密钥...",
+    "prekeysError": "加密密钥发布失败",
+    "selfAccount": "这是您的账户",
+    "selectChatPrompt": "选择一个聊天开始交流",
+    "emptyChatsTitle": "暂无活跃对话",
+    "emptyChatsHint": "通过用户名发起加密聊天，或使用离线雷达发现附近的设备",
+    "selectChatSub": "所有消息均在您的设备上受端到端加密保护"
+  },
+  "folders": {
+    "modalTitle": "会话分组",
+    "modalTitleCreate": "新建分组",
+    "modalTitleEdit": "编辑分组",
+    "createFolder": "新建分组",
+    "emptyTitle": "暂无会话分组",
+    "emptyDesc": "点击「新建」添加您的第一个分组",
+    "folderName": "分组名称",
+    "folderNamePlaceholder": "例如：工作、家人、机密...",
+    "folderIcon": "图标",
+    "includedChats": "包含的会话",
+    "dlpContourToggle": "安全隔离区 (DLP 防泄露)",
+    "dlpContourDesc": "禁止从此分组中的会话复制、转发和导出消息",
+    "chatsCount": "已选择 {{count}} 个会话",
+    "saveFolder": "保存分组",
+    "deleteFolder": "删除分组"
+  },
+  "header": {
+    "online": "在线",
+    "offline": "最近在线",
+    "typing": "正在输入...",
+    "recordingAudio": "正在录制语音...",
+    "recordingVideo": "正在录制视频留言...",
+    "groupMembers_one": "{{count}} 位成员",
+    "groupMembers_few": "{{count}} 位成员",
+    "groupMembers_many": "{{count}} 位成员",
+    "groupMembers_other": "{{count}} 位成员",
+    "menuSearch": "在会话中搜索",
+    "menuTransfer": "TON 加密转账",
+    "menuWallet": "TON 加密钱包",
+    "menuDlp": "安全隔离区 (DLP)",
+    "menuGroupInfo": "群组信息",
+    "menuDeleteChat": "删除会话",
+    "menuClearHistory": "清空聊天记录",
+    "publicChannel": "公开频道",
+    "groupChat": "群聊",
+    "verifyEncryption": "验证聊天加密安全码",
+    "ttlTimer": "消息自动销毁计时器",
+    "scheduledMessages": "定时发送的消息",
+    "scheduleCurrent": "定时发送当前消息"
+  },
+  "pinned": {
+    "pinnedMessage": "置顶消息",
+    "unpin": "取消置顶",
+    "multiplePinned": "{{current}} / {{total}} 条置顶"
+  },
+  "input": {
+    "placeholder": "输入消息",
+    "replyTitle": "回复消息",
+    "editTitle": "编辑消息",
+    "sendTooltip": "发送",
+    "recordVoiceTooltip": "长按录制语音，轻触切换视频留言",
+    "recordVideoTooltip": "长按录制视频留言，轻触切换语音",
+    "recordingVoice": "正在录音：{{duration}} 秒",
+    "attachFile": "附加文件、照片或视频",
+    "emojiPicker": "表情与贴纸",
+    "uploadingProgress": "正在上传：{{progress}}%",
+    "uploadReady": "文件已准备好发送",
+    "captionPlaceholder": "添加说明...",
+    "emoji": "表情与贴纸"
+  },
+  "mediaDrawer": {
+    "title": "添加到消息",
+    "liveCamera": "拍摄",
+    "gallery": "相册",
+    "gallerySub": "媒体",
+    "file": "文件",
+    "fileSub": "文档",
+    "location": "位置",
+    "tonTransfer": "TON",
+    "tonSub": "转账",
+    "fullscreen": "全屏",
+    "cameraSwitch": "切换镜头",
+    "flashToggle": "闪光灯"
+  },
+  "sharedMedia": {
+    "title": "会话媒体库",
+    "tabMedia": "媒体",
+    "tabFiles": "文件",
+    "tabVoice": "语音",
+    "tabLinks": "链接",
+    "emptyMedia": "暂无媒体文件",
+    "emptyFiles": "暂无附加文件",
+    "emptyVoice": "暂无语音消息",
+    "emptyLinks": "暂无保存的链接"
+  },
+  "messageMenu": {
+    "reply": "回复",
+    "copy": "复制文本",
+    "edit": "编辑",
+    "pin": "置顶",
+    "unpin": "取消置顶",
+    "forward": "转发",
+    "deleteForMe": "仅对自己删除",
+    "deleteForEveryone": "对所有人删除",
+    "saveMedia": "保存文件",
+    "report": "举报"
+  },
+  "serviceMessages": {
+    "sessionReset": "系统提示：加密会话已重置更新",
+    "chatCreated": "已创建启用 MLS E2EE 加密保护的会话",
+    "groupCreated": "群组由 {{user}} 创建",
+    "userJoined": "{{user}} 加入了群组",
+    "userLeft": "{{user}} 离开了群组"
+  },
+  "group": {
+    "manageTitle": "群组：{{name}}",
+    "epochLabel": "当前 MLS 纪元：",
+    "addMember": "添加成员",
+    "membersCount": "群组成员 ({{count}})",
+    "removeMember": "移除"
+  },
+  "bots": {
+    "title": "机器人与集成",
+    "createNew": "创建新机器人",
+    "tokenLabel": "机器人 HTTP API 令牌"
+  },
+  "audio": {
+    "recording": "正在录音：{{duration}} 秒"
+  },
+  "edit": {
+    "title": "编辑消息"
+  },
+  "file": {
+    "captionPhoto": "添加照片说明...",
+    "captionVideo": "添加视频说明...",
+    "preview": "预览",
+    "ready": "文件已准备好发送",
+    "uploading": "正在上传到服务器..."
+  },
+  "message": {
+    "me": "我"
+  },
+  "reply": {
+    "to": "回复 {{user}}"
+  },
+  "newChat": {
+    "button": "新建聊天"
+  }
+}

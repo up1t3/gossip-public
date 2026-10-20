@@ -1,0 +1,93 @@
+{
+  "title": "TON 加密钱包",
+  "tabs": {
+    "overview": "概览",
+    "send": "转账",
+    "deposit": "充值",
+    "history": "历史"
+  },
+  "overview": {
+    "totalBalance": "总资产",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "连接 TON Connect",
+    "disconnect": "断开钱包连接",
+    "connectedAs": "已连接: {{address}}",
+    "quickSend": "转账",
+    "quickReceive": "收款",
+    "refreshBalances": "刷新余额"
+  },
+  "send": {
+    "recipientLabel": "接收方地址或 .ton 域名",
+    "recipientPlaceholder": "EQ... 或 domain.ton",
+    "amountLabel": "转账金额",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "备注附言 (Memo / Tag)",
+    "memoPlaceholder": "选填",
+    "assetSelect": "币种",
+    "available": "可用余额: {{amount}} {{symbol}}",
+    "sendButton": "发送 {{amount}} {{symbol}}",
+    "confirming": "正在钱包中签名交易...",
+    "success": "转账发送成功！",
+    "invalidAddress": "无效的 TON 网络地址",
+    "insufficientFunds": "账户余额不足"
+  },
+  "deposit": {
+    "title": "充值收款",
+    "desc": "将 TON 或 USDT 发送到您的专属地址：",
+    "copyAddress": "复制地址",
+    "shareQr": "分享二维码",
+    "warning": "请仅充值 TON (The Open Network) 网络资产。发送其他网络代币将造成无法找回的资产损失。"
+  },
+  "history": {
+    "title": "交易历史记录",
+    "empty": "暂无交易记录",
+    "incoming": "收款转入",
+    "outgoing": "转账支出",
+    "fee": "网络手续费: {{fee}} TON",
+    "viewExplorer": "在 TonScan 查看"
+  },
+  "inChat": {
+    "transferButton": "会话中转账",
+    "invoiceButton": "发起收款单",
+    "receiptTitle": "TON 转账收据",
+    "receiptSent": "您已发送 {{amount}} {{currency}}",
+    "receiptReceived": "您已收到 {{amount}} {{currency}}",
+    "invoiceTitle": "支付账单",
+    "payInvoice": "支付 {{amount}} {{currency}}",
+    "invoicePaid": "账单已支付"
+  },
+  "paperWallet": {
+    "title": "纸钱包 (Paper Wallet 冷钱包)",
+    "desc": "无需连接互联网，在本地离线生成 Ed25519 密钥对。",
+    "generateButton": "生成冷钱包",
+    "mnemonicTitle": "冷钱包助记词",
+    "saveWarning": "请打印或手抄记下此助记词。它仅临时保存在内存中。"
+  },
+  "hub": {
+    "title": "TON Connect 2.0 与加密钱包",
+    "connectBannerTitle": "通过 TON Connect 2.0 协议连接",
+    "connectBannerDesc": "连接您的非托管钱包，享受安全即时的 P2P 转账与零平台手续费账单支付。",
+    "selectWallet": "选择要连接的钱包：",
+    "popularBadge": "热门",
+    "watchOnlyPresets": "快捷链上预设 (只读观察模式)：",
+    "watchOnlyMonitoring": "链上监控",
+    "customAddressTitle": "输入钱包地址 (观察模式 / 手动连接)",
+    "customAddressDesc": "输入您的公开 TON 地址（以 UQ...、EQ... 或 0:... 开头）以查看链上资产并准备转账：",
+    "connectAddressButton": "连接地址",
+    "checkingAddress": "正在验证地址...",
+    "moreOptionsToggle": "纸钱包冷备份与手动输入地址"
+  },
+  "invoice": {
+    "title": "收款账单",
+    "statusPending": "等待支付",
+    "statusCompleted": "已完成支付",
+    "statusExpired": "账单已过期",
+    "payButton": "立即支付 {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "转账收据",
+    "txHash": "交易哈希 (TxHash)"
+  }
+}

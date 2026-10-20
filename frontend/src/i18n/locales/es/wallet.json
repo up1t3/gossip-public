@@ -1,0 +1,93 @@
+{
+  "title": "Billetera cripto TON",
+  "tabs": {
+    "overview": "Resumen",
+    "send": "Enviar",
+    "deposit": "Recibir",
+    "history": "Historial"
+  },
+  "overview": {
+    "totalBalance": "Saldo total",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "Conectar TON Connect",
+    "disconnect": "Desconectar billetera",
+    "connectedAs": "Conectado: {{address}}",
+    "quickSend": "Enviar",
+    "quickReceive": "Recibir",
+    "refreshBalances": "Actualizar saldos"
+  },
+  "send": {
+    "recipientLabel": "Dirección de destino o dominio .ton",
+    "recipientPlaceholder": "EQ... o dominio.ton",
+    "amountLabel": "Monto a transferir",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "Comentario (Memo / Tag)",
+    "memoPlaceholder": "Opcional",
+    "assetSelect": "Moneda",
+    "available": "Disponible: {{amount}} {{symbol}}",
+    "sendButton": "Enviar {{amount}} {{symbol}}",
+    "confirming": "Firmando transacción en la billetera...",
+    "success": "¡Transferencia enviada con éxito!",
+    "invalidAddress": "Dirección de red TON no válida",
+    "insufficientFunds": "Fondos insuficientes en el saldo"
+  },
+  "deposit": {
+    "title": "Recibir fondos",
+    "desc": "Envía TON o USDT a tu dirección personal:",
+    "copyAddress": "Copiar dirección",
+    "shareQr": "Compartir código QR",
+    "warning": "Envía únicamente activos de la red TON (The Open Network). Enviar otros tokens resultará en su pérdida permanente."
+  },
+  "history": {
+    "title": "Historial de transacciones",
+    "empty": "No hay transacciones aún",
+    "incoming": "Transferencia entrante",
+    "outgoing": "Transferencia saliente",
+    "fee": "Comisión de red: {{fee}} TON",
+    "viewExplorer": "Ver en TonScan"
+  },
+  "inChat": {
+    "transferButton": "Transferir en el chat",
+    "invoiceButton": "Crear factura",
+    "receiptTitle": "Recibo de transferencia TON",
+    "receiptSent": "Has enviado {{amount}} {{currency}}",
+    "receiptReceived": "Has recibido {{amount}} {{currency}}",
+    "invoiceTitle": "Factura de pago",
+    "payInvoice": "Pagar {{amount}} {{currency}}",
+    "invoicePaid": "Factura pagada"
+  },
+  "paperWallet": {
+    "title": "Billetera de papel (Paper Wallet)",
+    "desc": "Generación local de pares de claves Ed25519 sin conexión a la red.",
+    "generateButton": "Generar billetera fría",
+    "mnemonicTitle": "Mnemónica de billetera fría",
+    "saveWarning": "Imprime o anota esta frase semilla. Solo se almacena en la memoria volátil."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 y Billetera Cripto",
+    "connectBannerTitle": "Conexión mediante TON Connect 2.0",
+    "connectBannerDesc": "Conecta tu billetera sin custodia para transferencias P2P instantáneas y pago de facturas sin comisiones.",
+    "selectWallet": "Selecciona una billetera para conectar:",
+    "popularBadge": "Popular",
+    "watchOnlyPresets": "Ajustes rápidos onchain (Solo lectura):",
+    "watchOnlyMonitoring": "Monitoreo onchain",
+    "customAddressTitle": "Ingresar dirección de billetera (Solo lectura / Manual)",
+    "customAddressDesc": "Ingresa tu dirección pública TON (empieza por UQ..., EQ... o 0:...) para consultar saldo y preparar transferencias:",
+    "connectAddressButton": "Conectar dirección",
+    "checkingAddress": "Comprobando dirección...",
+    "moreOptionsToggle": "Respaldo en papel e ingreso manual de dirección"
+  },
+  "invoice": {
+    "title": "Factura de pago",
+    "statusPending": "Pendiente de pago",
+    "statusCompleted": "Pagada",
+    "statusExpired": "Expirada",
+    "payButton": "Pagar {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "Recibo de transferencia",
+    "txHash": "Hash de transacción"
+  }
+}

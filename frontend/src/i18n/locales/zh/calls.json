@@ -1,0 +1,40 @@
+{
+  "incoming": {
+    "title": "来电提醒",
+    "subtitleAudio": "Gossip E2EE 加密语音通话...",
+    "subtitleVideo": "Gossip E2EE 加密视频通话...",
+    "acceptAudio": "接听",
+    "acceptVideo": "视频接听",
+    "decline": "拒绝"
+  },
+  "outgoing": {
+    "calling": "正在呼叫...",
+    "ringing": "正在响铃...",
+    "waitingForAnswer": "等待对方接听...",
+    "cancel": "取消呼叫"
+  },
+  "active": {
+    "audioCall": "语音通话",
+    "videoCall": "视频通话",
+    "duration": "{{duration}}",
+    "e2eeStatus": "MLS WebRTC E2EE 加密保护",
+    "e2eeVerified": "端到端加密验证通过",
+    "muteAudio": "静音麦克风",
+    "unmuteAudio": "开启麦克风",
+    "muteVideo": "关闭摄像头",
+    "unmuteVideo": "开启摄像头",
+    "switchCamera": "翻转镜头",
+    "screenShare": "共享屏幕",
+    "endCall": "挂断通话",
+    "reconnecting": "正在重新连接通话...",
+    "connecting": "正在建立安全端对端连接..."
+  },
+  "groupCall": {
+    "title": "群组多人视频通话",
+    "participantsCount": "通话成员 ({{count}})",
+    "join": "加入通话",
+    "leave": "离开通话",
+    "raiseHand": "举手发言",
+    "handRaised": "已举手"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "incoming": {
+    "title": "تماس ورودی",
+    "subtitleAudio": "تماس صوتی رمزنگاری‌شده Gossip E2EE...",
+    "subtitleVideo": "تماس ویدیویی رمزنگاری‌شده Gossip E2EE...",
+    "acceptAudio": "پاسخ",
+    "acceptVideo": "پاسخ ویدیویی",
+    "decline": "رد تماس"
+  },
+  "outgoing": {
+    "calling": "در حال برقراری تماس...",
+    "ringing": "در حال زنگ خوردن...",
+    "waitingForAnswer": "در انتظار پاسخ...",
+    "cancel": "لغو"
+  },
+  "active": {
+    "audioCall": "تماس صوتی",
+    "videoCall": "تماس ویدیویی",
+    "duration": "{{duration}}",
+    "e2eeStatus": "محافظت‌شده با MLS WebRTC E2EE",
+    "e2eeVerified": "رمزنگاری سرتاسری تأیید شد",
+    "muteAudio": "قطع میکروفون",
+    "unmuteAudio": "وصل میکروفون",
+    "muteVideo": "خاموش کردن دوربین",
+    "unmuteVideo": "روشن کردن دوربین",
+    "switchCamera": "تغییر دوربین",
+    "screenShare": "اشتراک‌گذاری صفحه",
+    "endCall": "پایان تماس",
+    "reconnecting": "در حال اتصال مجدد...",
+    "connecting": "در حال برقراری اتصال امن..."
+  },
+  "groupCall": {
+    "title": "تماس ویدیویی گروهی",
+    "participantsCount": "شرکت‌کنندگان ({{count}})",
+    "join": "پیوستن",
+    "leave": "ترک تماس",
+    "raiseHand": "بالا بردن دست",
+    "handRaised": "دست بالا برده شد"
+  }
+}

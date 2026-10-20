@@ -1,0 +1,92 @@
+{
+  "title": "Gossip Pulse ورادار النوايا",
+  "tabs": {
+    "forYou": "لك",
+    "nearby": "بالقرب منك (H3)",
+    "subscriptions": "الاشتراكات",
+    "trends": "الرائج",
+    "feed": "موجز النوايا",
+    "zkAttest": "شهادات ZK",
+    "escrow": "الضمان الذكي DvP"
+  },
+  "stories": {
+    "title": "القصص",
+    "create": "إنشاء قصة",
+    "viewAll": "عرض الكل"
+  },
+  "createModal": {
+    "title": "إنشاء نية في Pulse",
+    "quickMode": "إعداد سريع (30 ثانية)",
+    "legoMode": "منشئ Lego",
+    "titleLabel": "عنوان النية",
+    "titlePlaceholder": "ملخص موجز لعرضك أو طلبك...",
+    "descLabel": "الوصف التفصيلي",
+    "descPlaceholder": "صف الشروط والتفاصيل والمتطلبات...",
+    "domainLabel": "فئة التفاعل",
+    "domains": {
+      "p2p": "تبادل P2P / صفقة",
+      "gig": "عمل حر / مهمة (DvP)",
+      "consensus": "تصويت / استطلاع",
+      "aid": "مساعدة متبادلة / تمويل",
+      "events": "فعالية / لقاء",
+      "trade": "التجارة والتصدير",
+      "civic": "الخيار المدني",
+      "whistleblow": "الشهادات والشفافية"
+    },
+    "accordions": {
+      "trust": "الثقة وسمعة ZK",
+      "escrow": "الضمان الذكي (حماية DvP)",
+      "privacy": "الخصوصية وإخفاء الهوية",
+      "settlement": "التسوية والعملة",
+      "spatial": "الموقع الجغرافي H3 Res 8",
+      "quorum": "النصاب والتحكيم"
+    },
+    "publishButton": "نشر في Pulse",
+    "publishing": "جارٍ نشر النية...",
+    "anonymousToggle": "نشر مجهول الهوية (ZK-Nullifier)",
+    "titleHuman": "إعلان جديد"
+  },
+  "card": {
+    "anonymousAuthor": "عضو مجهول",
+    "reputationScore": "سمعة ZK: {{score}}",
+    "expiresIn": "ينتهي خلال: {{time}}",
+    "respondButton": "استجابة",
+    "startDeal": "بدء صفقة آمنة",
+    "tipTon": "إكرامية TON",
+    "like": "إعجاب",
+    "comments": "التعليقات ({{count}})",
+    "share": "مشاركة"
+  },
+  "hub": {
+    "title": "Gossip Pulse والطبقة الاقتصادية السيادية",
+    "subtitle": "من صفقات P2P إلى التسويات الدولية",
+    "tabsFeed": "موجز النوايا",
+    "tabsZkAttest": "شهادات ZK",
+    "tabsEscrow": "الضمان الذكي DvP",
+    "titleHuman": "النبض وصفقات P2P",
+    "subtitleHuman": "إعلانات مباشرة وصفقات آمنة عبر العقود الذكية وإثبات السمعة",
+    "tabsFeedHuman": "سوق الإعلانات",
+    "tabsZkAttestHuman": "شهاداتي",
+    "tabsEscrowHuman": "صفقات الضمان"
+  },
+  "feed": {
+    "searchPlaceholder": "البحث عن النوايا والعروض والعرائض والمشاريع...",
+    "geoRadarBtn": "الرادار: {{radius}} كم",
+    "geoRadarOff": "إيقاف الرادار",
+    "filterAll": "جميع المجالات",
+    "filterP2p": "عملات P2P",
+    "filterTrade": "التجارة والتصدير",
+    "filterCivic": "الخيار المدني",
+    "filterAid": "المساعدة المتبادلة",
+    "filterGig": "المهام والعمل",
+    "filterWhistleblow": "الشفافية"
+  },
+  "feedback": {
+    "modalTitle": "⭐ تقييم الطرف المقابل (ZK Dual-Blind)",
+    "counterparty": "الطرف المقابل في الصفقة",
+    "ratingLabel": "تقييمك للتعامل:",
+    "tagsLabel": "اختر وسوماً (حتى 4):",
+    "dualBlindInfo": "التزام أعمى مزدوج: تقييمك مشفر ولن يُكشف إلا بعد تقديم كلا الطرفين لتقييمهما، مما يمنع الانتقام أو الابتزاز.",
+    "submit": "تأكيد وإرسال التقييم"
+  }
+}

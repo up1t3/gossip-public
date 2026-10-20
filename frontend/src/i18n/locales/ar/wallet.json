@@ -1,0 +1,93 @@
+{
+  "title": "محفظة TON المشفرة",
+  "tabs": {
+    "overview": "نظرة عامة",
+    "send": "إرسال",
+    "deposit": "استلام",
+    "history": "السجل"
+  },
+  "overview": {
+    "totalBalance": "إجمالي الرصيد",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "ربط محفظة TON Connect",
+    "disconnect": "فصل المحفظة",
+    "connectedAs": "متصل: {{address}}",
+    "quickSend": "إرسال",
+    "quickReceive": "استلام",
+    "refreshBalances": "تحديث الأرصدة"
+  },
+  "send": {
+    "recipientLabel": "عنوان المستلم أو نطاق .ton",
+    "recipientPlaceholder": "EQ... أو domain.ton",
+    "amountLabel": "مبلغ التحويل",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "ملاحظة (Memo / Tag)",
+    "memoPlaceholder": "اختياري",
+    "assetSelect": "العملة",
+    "available": "المتاح: {{amount}} {{symbol}}",
+    "sendButton": "إرسال {{amount}} {{symbol}}",
+    "confirming": "جارٍ توقيع المعاملة في المحفظة...",
+    "success": "تم إرسال التحويل بنجاح!",
+    "invalidAddress": "عنوان غير صالح في شبكة TON",
+    "insufficientFunds": "الرصيد غير كافٍ"
+  },
+  "deposit": {
+    "title": "استلام الأصول",
+    "desc": "أرسل TON أو USDT إلى عنوانك الشخصي:",
+    "copyAddress": "نسخ العنوان",
+    "shareQr": "مشاركة رمز QR",
+    "warning": "أرسل فقط أصول شبكة TON (The Open Network). إرسال رموز أخرى سيؤدي إلى فقدانها بشكل نهائي."
+  },
+  "history": {
+    "title": "سجل المعاملات",
+    "empty": "لا توجد معاملات بعد",
+    "incoming": "تحويل وارد",
+    "outgoing": "تحويل صادر",
+    "fee": "رسوم الشبكة: {{fee}} TON",
+    "viewExplorer": "عرض في TonScan"
+  },
+  "inChat": {
+    "transferButton": "تحويل في المحادثة",
+    "invoiceButton": "إنشاء فاتورة",
+    "receiptTitle": "إيصال تحويل TON",
+    "receiptSent": "لقد أرسلت {{amount}} {{currency}}",
+    "receiptReceived": "لقد استلمت {{amount}} {{currency}}",
+    "invoiceTitle": "فاتورة دفع",
+    "payInvoice": "دفع {{amount}} {{currency}}",
+    "invoicePaid": "تم دفع الفاتورة"
+  },
+  "paperWallet": {
+    "title": "المحفظة الورقية (Paper Wallet)",
+    "desc": "توليد محلي لزوج مفاتيح Ed25519 دون اتصال بالإنترنت.",
+    "generateButton": "توليد محفظة باردة",
+    "mnemonicTitle": "عبارة استرداد المحفظة الباردة",
+    "saveWarning": "اطبع أو اكتب هذه العبارة. يتم تخزينها في الذاكرة المؤقتة فقط."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 والمحفظة المشفرة",
+    "connectBannerTitle": "الاتصال عبر بروتوكول TON Connect 2.0",
+    "connectBannerDesc": "اربط محفظتك غير الحاضنة لإجراء تحويلات P2P فورية وآمنة ودفع الفواتير بدون أي عمولات.",
+    "selectWallet": "اختر محفظة للربط:",
+    "popularBadge": "شائع",
+    "watchOnlyPresets": "إعدادات مسبقة سريعة (وضع المشاهدة فقط):",
+    "watchOnlyMonitoring": "مراقبة البلوكشين",
+    "customAddressTitle": "إدخال عنوان المحفظة (وضع المراقبة / يدوي)",
+    "customAddressDesc": "أدخل عنوان TON العام الخاص بك (يبدأ بـ UQ... أو EQ... أو 0:...) للاطلاع على الرصيد وتجهيز التحويلات:",
+    "connectAddressButton": "ربط العنوان",
+    "checkingAddress": "جارٍ التحقق من العنوان...",
+    "moreOptionsToggle": "نسخة ورقية احتياطية وإدخال يدوي للعنوان"
+  },
+  "invoice": {
+    "title": "فاتورة دفع",
+    "statusPending": "في انتظار الدفع",
+    "statusCompleted": "مدفوعة",
+    "statusExpired": "منتهية الصلاحية",
+    "payButton": "دفع {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "إيصال التحويل",
+    "txHash": "تجزئة المعاملة (TxHash)"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "list": {
+    "title": "Chats",
+    "searchPlaceholder": "Chats und Nachrichten durchsuchen...",
+    "allChatsTab": "Alle",
+    "dlpSafeBadge": "Tresor",
+    "emptyChats": "Keine Chats gefunden",
+    "noSearchResults": "Nichts gefunden",
+    "globalSearchTitle": "Globale Suche",
+    "startChatPrompt": "Tippen Sie, um einen Chat zu starten",
+    "messagesSection": "Nachrichten",
+    "createChatTooltip": "Neuer Chat / Gruppe",
+    "prekeysPublishing": "Verschlüsselungsschlüssel werden auf dem Server veröffentlicht...",
+    "prekeysError": "Fehler beim Veröffentlichen der Verschlüsselungsschlüssel",
+    "selfAccount": "Dies ist Ihr Konto",
+    "selectChatPrompt": "Wählen Sie einen Chat, um zu beginnen",
+    "emptyChatsTitle": "Noch keine aktiven Unterhaltungen",
+    "emptyChatsHint": "Starten Sie einen verschlüsselten Chat per Nutzername oder finden Sie Geräte in der Nähe per Offline-Radar",
+    "selectChatSub": "Alle Nachrichten sind auf Ihrem Gerät Ende-zu-Ende-verschlüsselt"
+  },
+  "folders": {
+    "modalTitle": "Chat-Ordner",
+    "modalTitleCreate": "Ordner erstellen",
+    "modalTitleEdit": "Ordner bearbeiten",
+    "createFolder": "Ordner erstellen",
+    "emptyTitle": "Sie haben noch keine Ordner",
+    "emptyDesc": "Tippen Sie auf «Erstellen», um Ihren ersten Ordner anzulegen",
+    "folderName": "Ordnername",
+    "folderNamePlaceholder": "Z. B.: Arbeit, Familie, Tresor...",
+    "folderIcon": "Symbol",
+    "includedChats": "Enthaltene Chats",
+    "dlpContourToggle": "Sicherheitsbereich (DLP)",
+    "dlpContourDesc": "Verhindert das Kopieren, Weiterleiten und Exportieren von Nachrichten aus diesem Ordner",
+    "chatsCount": "Ausgewählte Chats: {{count}}",
+    "saveFolder": "Ordner speichern",
+    "deleteFolder": "Ordner löschen"
+  },
+  "header": {
+    "online": "online",
+    "offline": "zuletzt online",
+    "typing": "tippt...",
+    "recordingAudio": "nimmt Sprachnachricht auf...",
+    "recordingVideo": "nimmt Videonachricht auf...",
+    "groupMembers_one": "{{count}} Mitglied",
+    "groupMembers_few": "{{count}} Mitglieder",
+    "groupMembers_many": "{{count}} Mitglieder",
+    "groupMembers_other": "{{count}} Mitglieder",
+    "menuSearch": "Im Chat suchen",
+    "menuTransfer": "TON-Kryptoüberweisung",
+    "menuWallet": "TON-Wallet",
+    "menuDlp": "Sicherheitsbereich (DLP)",
+    "menuGroupInfo": "Gruppeninfo",
+    "menuDeleteChat": "Chat löschen",
+    "menuClearHistory": "Verlauf leeren",
+    "publicChannel": "Öffentlicher Kanal",
+    "groupChat": "Gruppenchat",
+    "verifyEncryption": "Sicherheitsnummer der Verschlüsselung prüfen",
+    "ttlTimer": "Timer für selbstlöschende Nachrichten",
+    "scheduledMessages": "Geplante Nachrichten",
+    "scheduleCurrent": "Nachrichtenversand planen"
+  },
+  "pinned": {
+    "pinnedMessage": "Angeheftete Nachricht",
+    "unpin": "Lösen",
+    "multiplePinned": "{{current}} von {{total}} angeheftet"
+  },
+  "input": {
+    "placeholder": "Nachricht",
+    "replyTitle": "Antwort auf Nachricht",
+    "editTitle": "Nachricht bearbeiten",
+    "sendTooltip": "Senden",
+    "recordVoiceTooltip": "Gedrückt halten für Sprache, tippen für Videonotiz",
+    "recordVideoTooltip": "Gedrückt halten für Videonotiz, tippen für Sprache",
+    "recordingVoice": "Sprachaufnahme: {{duration}} s",
+    "attachFile": "Datei, Foto oder Video anhängen",
+    "emojiPicker": "Emojis und Sticker",
+    "uploadingProgress": "Wird hochgeladen: {{progress}}%",
+    "uploadReady": "Datei bereit zum Senden",
+    "captionPlaceholder": "Beschriftung hinzufügen...",
+    "emoji": "Emojis & Sticker"
+  },
+  "mediaDrawer": {
+    "title": "An Nachricht anhängen",
+    "liveCamera": "Kamera",
+    "gallery": "Galerie",
+    "gallerySub": "Medien",
+    "file": "Datei",
+    "fileSub": "Dokument",
+    "location": "Standort",
+    "tonTransfer": "TON",
+    "tonSub": "Überweisung",
+    "fullscreen": "Vollbild",
+    "cameraSwitch": "Kamera wechseln",
+    "flashToggle": "Blitz"
+  },
+  "sharedMedia": {
+    "title": "Geteilte Medien",
+    "tabMedia": "Medien",
+    "tabFiles": "Dateien",
+    "tabVoice": "Sprache",
+    "tabLinks": "Links",
+    "emptyMedia": "Keine geteilten Medien",
+    "emptyFiles": "Keine angehängten Dateien",
+    "emptyVoice": "Keine Sprachnachrichten",
+    "emptyLinks": "Keine gespeicherten Links"
+  },
+  "messageMenu": {
+    "reply": "Antworten",
+    "copy": "Text kopieren",
+    "edit": "Bearbeiten",
+    "pin": "Anheften",
+    "unpin": "Lösen",
+    "forward": "Weiterleiten",
+    "deleteForMe": "Für mich löschen",
+    "deleteForEveryone": "Für alle löschen",
+    "saveMedia": "Datei speichern",
+    "report": "Melden"
+  },
+  "serviceMessages": {
+    "sessionReset": "Systemnachricht: Kryptografische Sitzung erneuert",
+    "chatCreated": "Chat mit MLS-E2EE-Schutz erstellt",
+    "groupCreated": "Gruppe von {{user}} erstellt",
+    "userJoined": "{{user}} ist der Gruppe beigetreten",
+    "userLeft": "{{user}} hat die Gruppe verlassen"
+  },
+  "group": {
+    "manageTitle": "Gruppe: {{name}}",
+    "epochLabel": "Aktuelle MLS-Epoche:",
+    "addMember": "Mitglied hinzufügen",
+    "membersCount": "Mitglieder ({{count}})",
+    "removeMember": "Entfernen"
+  },
+  "bots": {
+    "title": "Bots & Integrationen",
+    "createNew": "Neuen Bot erstellen",
+    "tokenLabel": "Bot-HTTP-API-Token"
+  },
+  "audio": {
+    "recording": "Audioaufnahme: {{duration}} Sek."
+  },
+  "edit": {
+    "title": "Nachricht bearbeiten"
+  },
+  "file": {
+    "captionPhoto": "Fotobeschreibung hinzufügen...",
+    "captionVideo": "Videobeschreibung hinzufügen...",
+    "preview": "Vorschau",
+    "ready": "Datei bereit zum Senden",
+    "uploading": "Wird auf den Server hochgeladen..."
+  },
+  "message": {
+    "me": "Ich"
+  },
+  "reply": {
+    "to": "Antwort an {{user}}"
+  },
+  "newChat": {
+    "button": "Neuer Chat"
+  }
+}

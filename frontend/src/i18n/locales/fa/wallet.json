@@ -1,0 +1,93 @@
+{
+  "title": "کیف پول رمزارز TON",
+  "tabs": {
+    "overview": "نمای کلی",
+    "send": "ارسال",
+    "deposit": "دریافت",
+    "history": "تاریخچه"
+  },
+  "overview": {
+    "totalBalance": "موجودی کل",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "اتصال به TON Connect",
+    "disconnect": "قطع اتصال کیف پول",
+    "connectedAs": "متصل: {{address}}",
+    "quickSend": "ارسال",
+    "quickReceive": "دریافت",
+    "refreshBalances": "تازه‌سازی موجودی"
+  },
+  "send": {
+    "recipientLabel": "آدرس گیرنده یا دامنه .ton",
+    "recipientPlaceholder": "EQ... یا domain.ton",
+    "amountLabel": "مبلغ انتقال",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "یادداشت (Memo / Tag)",
+    "memoPlaceholder": "اختیاری",
+    "assetSelect": "ارز",
+    "available": "موجود: {{amount}} {{symbol}}",
+    "sendButton": "ارسال {{amount}} {{symbol}}",
+    "confirming": "در حال امضای تراکنش در کیف پول...",
+    "success": "انتقال با موفقیت ارسال شد!",
+    "invalidAddress": "آدرس شبکه TON نامعتبر است",
+    "insufficientFunds": "موجودی کافی نیست"
+  },
+  "deposit": {
+    "title": "دریافت دارایی",
+    "desc": "ارز TON یا USDT را به آدرس شخصی خود ارسال کنید:",
+    "copyAddress": "کپی آدرس",
+    "shareQr": "اشتراک‌گذاری کد QR",
+    "warning": "فقط دارایی‌های شبکه TON (The Open Network) را ارسال کنید. ارسال سایر توکن‌ها منجر به از دست رفتن دائمی آنها می‌شود."
+  },
+  "history": {
+    "title": "تاریخچه تراکنش‌ها",
+    "empty": "هنوز تراکنشی ثبت نشده است",
+    "incoming": "انتقال دریافتی",
+    "outgoing": "انتقال ارسالی",
+    "fee": "کارمزد شبکه: {{fee}} TON",
+    "viewExplorer": "مشاهده در TonScan"
+  },
+  "inChat": {
+    "transferButton": "انتقال در گفتگو",
+    "invoiceButton": "صدور فاکتور",
+    "receiptTitle": "رسید انتقال TON",
+    "receiptSent": "شما {{amount}} {{currency}} ارسال کردید",
+    "receiptReceived": "شما {{amount}} {{currency}} دریافت کردید",
+    "invoiceTitle": "فاکتور پرداخت",
+    "payInvoice": "پرداخت {{amount}} {{currency}}",
+    "invoicePaid": "فاکتور پرداخت شد"
+  },
+  "paperWallet": {
+    "title": "کیف پول کاغذی (Paper Wallet)",
+    "desc": "تولید محلی جفت‌کلید Ed25519 بدون اتصال به شبکه اینترنت.",
+    "generateButton": "تولید کیف پول سرد",
+    "mnemonicTitle": "عبارت بازیابی کیف پول سرد",
+    "saveWarning": "این عبارت را چاپ یا یادداشت کنید. این عبارت فقط در حافظه موقت نگهداری می‌شود."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 و کیف پول رمزارز",
+    "connectBannerTitle": "اتصال از طریق پروتکل TON Connect 2.0",
+    "connectBannerDesc": "کیف پول غیرحضانتی خود را برای انتقال‌های فوری و امن P2P و پرداخت فاکتورها بدون کارمزد متصل کنید.",
+    "selectWallet": "کیف پول مورد نظر برای اتصال را انتخاب کنید:",
+    "popularBadge": "محبوب",
+    "watchOnlyPresets": "پیش‌تنظیم‌های سریع آن‌چین (فقط مشاهده):",
+    "watchOnlyMonitoring": "نظارت آن‌چین",
+    "customAddressTitle": "ورود آدرس کیف پول (فقط مشاهده / دستی)",
+    "customAddressDesc": "آدرس عمومی TON خود را (با UQ... یا EQ... یا 0:... شروع می‌شود) برای مشاهده موجودی وارد کنید:",
+    "connectAddressButton": "اتصال آدرس",
+    "checkingAddress": "در حال بررسی آدرس...",
+    "moreOptionsToggle": "پشتیبان کاغذی کیف پول و ورود دستی آدرس"
+  },
+  "invoice": {
+    "title": "فاکتور پرداخت",
+    "statusPending": "در انتظار پرداخت",
+    "statusCompleted": "پرداخت شده",
+    "statusExpired": "منقضی شده",
+    "payButton": "پرداخت {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "رسید انتقال",
+    "txHash": "هش تراکنش (TxHash)"
+  }
+}

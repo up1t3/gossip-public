@@ -1,0 +1,213 @@
+{
+  "header": {
+    "title": "GOSSIP_CHRONICLES // CHRONIQUES DE LA LIBERTÉ",
+    "years": "1450 — 2026+",
+    "subtitle": "Pourquoi le secret de la pensée et le dialogue libre façonnent l'avenir de l'humanité",
+    "soundOff": "Couper le son",
+    "soundOn": "Activer le son"
+  },
+  "tabs": {
+    "epochs": "1. Chronique des Époques",
+    "manifest": "2. Télétype-Manifeste",
+    "gliderKey": "3. Clé Planeur"
+  },
+  "epochsView": {
+    "reporterChronicle": "CHRONIQUE DE REPORTER // {{year}}",
+    "loading": "Chargement de la chronique...",
+    "epochCount": "Époque {{current}} sur {{total}}",
+    "threatLabel": "Ce qu'ils ont tenté d'interdire et d'anéantir :",
+    "courageLabel": "Comment les citoyens ont défendu le droit au savoir :",
+    "legacyLabel": "Ce qu'a apporté la victoire de la parole libre :",
+    "nextEpoch": "Époque suivante",
+    "readManifest": "Lire le Manifeste"
+  },
+  "epochs": {
+    "gutenberg": {
+      "short": "Gutenberg",
+      "year": "1450",
+      "location": "Mayence, Allemagne / Europe",
+      "title": "L'Imprimerie de Gutenberg et la Révolution Scientifique",
+      "subtitle": "La fin du monopole du savoir et l'aube des Lumières",
+      "threat": "Avant l'imprimerie, les livres étaient recopiés à la main pendant des années. Monarques et inquisiteurs brûlaient les ateliers sous peine de mort.",
+      "courage": "Les maîtres imprimeurs ont transporté des caractères mobiles clandestinement à travers l'Europe pour diffuser des traités médicaux et philosophiques par millions.",
+      "legacy": "Les caractères mobiles ont engendré la Révolution Scientifique de Copernic et Newton, fondé la médecine moderne et tiré l'humanité de l'obscurantisme.",
+      "quote": "« Donnez de la lumière aux gens, ils trouveront leur chemin. »",
+      "author": "Dante Alighieri / Tradition des Lumières",
+      "tags": [
+        "Révolution Scientifique",
+        "Imprimerie",
+        "Lumières"
+      ]
+    },
+    "zenger": {
+      "short": "Zenger",
+      "year": "1735",
+      "location": "New York, États-Unis / Grande-Bretagne",
+      "title": "Le Procès de John Peter Zenger : « La vérité n'est pas un crime »",
+      "subtitle": "Naissance de la presse libre et du Premier Amendement",
+      "threat": "Le gouverneur William Cosby fit emprisonner Zenger pour avoir publié des révélations sur la corruption du pouvoir colonial.",
+      "courage": "L'avocat Andrew Hamilton, 80 ans, plaida devant les jurés que révéler la vérité sur les abus de pouvoir est un droit sacré. Zenger fut acquitté.",
+      "legacy": "Ce procès a fondé la liberté de la presse et l'enquête indépendante comme remparts indispensables contre la tyrannie.",
+      "quote": "« La liberté de dire la vérité est le seul bouclier des faibles face aux puissants. »",
+      "author": "Andrew Hamilton, Plaidoirie (1735)",
+      "tags": [
+        "Liberté d'expression",
+        "Défense juridique",
+        "Anti-Corruption"
+      ]
+    },
+    "samizdat": {
+      "short": "Samizdat",
+      "year": "1960–1980",
+      "location": "URSS / Europe de l'Est",
+      "title": "L'Ère du Samizdat : Machines à écrire et 4 couches de papier carbone",
+      "subtitle": "La résistance culturelle face à la censure totale de l'État",
+      "threat": "La censure d'État contrôlait chaque mot imprimé. Les chefs-d'œuvre littéraires étaient proscrits et les photocopieuses sous haute surveillance.",
+      "courage": "La nuit dans les cuisines, les citoyens tapaient des copies au carbone et reliaient les manuscrits à la main au péril de leur liberté.",
+      "legacy": "Le Samizdat a préservé la culture de l'oubli, prouvant que la soif de vérité triomphe de toutes les interdictions.",
+      "quote": "« Une seule parole de vérité pèse plus que le monde entier. »",
+      "author": "Alexandre Soljenitsyne, Discours du Nobel",
+      "tags": [
+        "Samizdat",
+        "Héritage culturel",
+        "Résilience"
+      ]
+    },
+    "crypto_wars": {
+      "short": "PGP",
+      "year": "1991–1996",
+      "location": "Californie, États-Unis / Monde",
+      "title": "Les Premières Guerres Cryptographiques et Phil Zimmermann : Naissance de PGP",
+      "subtitle": "Comment publier le code source dans un livre a sauvé le secret des correspondances",
+      "threat": "Les gouvernements ont tenté d'interdire le chiffrement fort civil en le classant comme arme de guerre et d'imposer des puces espionnes Clipper.",
+      "courage": "Phil Zimmermann a créé PGP gratuitement. Poursuivi par la justice, des militants ont imprimé tout le code sous forme de livre protégé par la liberté d'expression.",
+      "legacy": "La victoire des cypherpunks a légalisé la cryptographie, permettant le HTTPS, la banque en ligne et la confidentialité pour des milliards d'humains.",
+      "quote": "« Si la vie privée est déclarée hors-la-loi, seuls les hors-la-loi auront une vie privée. »",
+      "author": "Phil Zimmermann, Créateur de PGP (1991)",
+      "tags": [
+        "Crypto Wars",
+        "PGP & HTTPS",
+        "Cypherpunks"
+      ]
+    },
+    "digital_mesh": {
+      "short": "Mesh",
+      "year": "2010–2020",
+      "location": "Asie, Moyen-Orient, Afrique, Amérique Latine",
+      "title": "Résistance Numérique : Réseaux Mesh lors des coupures totales",
+      "subtitle": "Solidarité et sauvetage de vies pendant les blackouts d'Internet",
+      "threat": "Des gouvernements ont coupé Internet et les réseaux mobiles lors de crises, paralysant secours et journalistes indépendants.",
+      "courage": "Ingénieurs et citoyens ont déployé des réseaux maillés Bluetooth/Wi-Fi Mesh relayant les messages chiffrés directement de téléphone en téléphone.",
+      "legacy": "Les coupures de réseau prouvent que les réseaux maillés autonomes sauvent des vies et préservent la vérité incontestable.",
+      "quote": "« Quand ils coupent les câbles, la communication passe dans l'air entre nous. »",
+      "author": "Chronique militante, Manifeste Mesh",
+      "tags": [
+        "BLE Mesh",
+        "Anti-Blackout",
+        "Radio Autonome"
+      ]
+    },
+    "future": {
+      "short": "Gossip",
+      "year": "2026+",
+      "location": "Espace Numérique Global",
+      "title": "Confidentialité Souveraine : MLS Post-Quantique et Gossip Mesh",
+      "subtitle": "Un futur où la communication appartient aux êtres humains et non aux serveurs",
+      "threat": "La surveillance de masse DPI, les monopoles du Cloud et le déchiffrement quantique exigent un nouveau standard inviolable.",
+      "courage": "Gossip supprime les serveurs centraux : vos messages restent dans un SQLite chiffré localement, scellés par MLS post-quantique et reliés par Bluetooth.",
+      "legacy": "Le secret de la pensée est un droit humain fondamental (Art. 12 DUDH). La libre circulation des idées garantit la dignité humaine.",
+      "quote": "« Le droit au secret de la pensée est le fondement de tout esprit libre. »",
+      "author": "Manifeste Gossip Protocol",
+      "tags": [
+        "MLS Post-Quantique",
+        "SQLite Local",
+        "Décentralisation"
+      ]
+    }
+  },
+  "manifestView": {
+    "active": "TÉLÉTYPE DE LA LIBRE PENSÉE",
+    "paused": "TÉLÉTYPE : EN PAUSE",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "speed": "Vitesse :",
+    "all": "Tout",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "scrollToBottom": "Descendre aux nouvelles lignes",
+    "restart": "Recommencer depuis le début",
+    "createGliderKey": "Créer la Clé Planeur",
+    "lines": [
+      "=== CHRONIQUES DE LA LIBERTÉ D'INFORMATION // GOSSIP PROTOCOL ===",
+      "",
+      "> [STATUT] Protocole de libre expression actif.",
+      "> [AXIOME] L'information n'est pas une arme. L'information est lumière.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "1. POURQUOI LE SECRET DE LA CORRESPONDANCE EST UNE HYGIÈNE DE BASE",
+      "--------------------------------------------------------------------------------",
+      "On vous dit souvent : « Si vous n'avez rien à cacher, pourquoi chiffrer ? »",
+      "C'est un dangereux sophisme. Verrouiller sa porte n'est pas un aveu de culpabilité.",
+      "C'est un droit naturel à l'intimité et à la dignité.",
+      "",
+      "Sans cryptographie et confidentialité des échanges, il n'y a plus :",
+      "  • De secret médical et de confiance envers son médecin ;",
+      "  • De secret professionnel pour les avocats et d'accès à une justice équitable ;",
+      "  • De sécurité bancaire et de protection de l'épargne des citoyens ;",
+      "  • De protection des créateurs et chercheurs contre le vol de leurs brevets ;",
+      "  • D'espace intime, de liberté de conscience et de dignité humaine.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "2. À QUOI ONT TOUJOURS MENÉ LA CENSURE ET LES INTERDICTIONS ?",
+      "--------------------------------------------------------------------------------",
+      "Chaque fois que le partage du savoir a été proscrit :",
+      "  [!] Interdire l'imprimerie au XVe siècle a plongé des régions dans la misère et l'obscurantisme.",
+      "  [!] Dissimuler les épidémies de peste et de choléra a décuplé les victimes.",
+      "  [!] Bannir la génétique et la cybernétique a retardé la recherche biologique de 40 ans.",
+      "  [!] Masquer la catastrophe de Tchernobyl en 1986 a coûté la vie à des milliers d'innocents.",
+      "",
+      "La censure n'a jamais résolu aucune crise ; elle n'a fait que pérenniser le déclin.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "3. QU'APPORTE À L'HUMANITÉ LE LIBRE ÉCHANGE DES CONNAISSANCES ?",
+      "--------------------------------------------------------------------------------",
+      "  [+] L'accès ouvert (Open Access) a permis de concevoir des vaccins salvateurs en un temps record.",
+      "  [+] Le journalisme d'investigation révèle la corruption avant les drames.",
+      "  [+] La cryptographie ouverte a bâti l'économie numérique mondiale et le protocole HTTPS.",
+      "  [+] Les réseaux Mesh autonomes sauvent des blessés et coordonnent l'aide en cas de séisme.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "4. NOTRE PRINCIPE : COMMUNIQUER SANS MAÎTRES NI INTERMÉDIAIRES",
+      "--------------------------------------------------------------------------------",
+      "Gossip a été conçu pour que votre voix n'appartienne qu'à vous :",
+      "  • Vos données résident dans un SQLite chiffré localement sur votre appareil.",
+      "  • Aucun serveur n'espionne ni ne stocke vos conversations.",
+      "  • En cas de coupure de réseau, le Bluetooth Mesh relie les citoyens directement.",
+      "",
+      "« On peut bloquer un serveur, mais on ne peut pas arrêter une idée dont l'heure est venue. »",
+      "--------------------------------------------------------------------------------",
+      "[CONCLUSION] La liberté d'information est le moteur de la science, de la prospérité et de l'humanité."
+    ]
+  },
+  "gliderView": {
+    "title": "Planeur de Souveraineté",
+    "desc": "Générez un Conway Glider mathématique unique basé sur votre nom — symbole numérique du droit au secret de la pensée.",
+    "inputLabel": "Nom du nœud souverain",
+    "inputPlaceholder": "Saisissez votre pseudo ou identifiant...",
+    "generating": "Calcul de la matrice de l'automate...",
+    "generateBtn": "Générer le Symbole Numérique",
+    "principleTitle": "Principe de Souveraineté :",
+    "principleDesc": "Votre emblème et vos clés sont calculés localement sur votre processeur et enregistrés dans le SQLite chiffré.",
+    "nodeLabel": "NŒUD :",
+    "statusFull": "STATUT : SOUVERAINETÉ NUMÉRIQUE TOTALE",
+    "copyManifest": "Manifeste",
+    "manifestCopied": "Manifeste copié !",
+    "toProfile": "Au profil",
+    "activated": "Activé ✓",
+    "waitingInput": "En attente du nom du nœud pour lancer l'automate cellulaire..."
+  },
+  "footer": {
+    "article": "FREEDOM_OF_INFORMATION // ARTICLE_12_UN",
+    "copyright": "© 2026 GOSSIP NETWORK INFRASTRUCTURE"
+  }
+}

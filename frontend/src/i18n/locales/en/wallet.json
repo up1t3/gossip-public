@@ -1,0 +1,93 @@
+{
+  "title": "Wallet",
+  "tabs": {
+    "overview": "Overview",
+    "send": "Send",
+    "deposit": "Receive",
+    "history": "History"
+  },
+  "overview": {
+    "totalBalance": "Total Balance",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "Connect TON Wallet",
+    "disconnect": "Disconnect Wallet",
+    "connectedAs": "Connected: {{address}}",
+    "quickSend": "Send",
+    "quickReceive": "Receive",
+    "refreshBalances": "Refresh Balances"
+  },
+  "send": {
+    "recipientLabel": "Recipient address or .ton domain",
+    "recipientPlaceholder": "EQ... or domain.ton",
+    "amountLabel": "Transfer amount",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "Comment (Memo / Tag)",
+    "memoPlaceholder": "Optional",
+    "assetSelect": "Asset",
+    "available": "Available: {{amount}} {{symbol}}",
+    "sendButton": "Send {{amount}} {{symbol}}",
+    "confirming": "Signing transaction in wallet...",
+    "success": "Transfer sent successfully!",
+    "invalidAddress": "Invalid TON network address",
+    "insufficientFunds": "Insufficient funds on balance"
+  },
+  "deposit": {
+    "title": "Receive Assets",
+    "desc": "Send TON or USDT to your personal address:",
+    "copyAddress": "Copy Address",
+    "shareQr": "Share QR Code",
+    "warning": "Send only TON (The Open Network) assets. Sending other tokens will result in permanent loss."
+  },
+  "history": {
+    "title": "Transaction History",
+    "empty": "No transactions yet",
+    "incoming": "Incoming Transfer",
+    "outgoing": "Outgoing Transfer",
+    "fee": "Network fee: {{fee}} TON",
+    "viewExplorer": "View on TonScan"
+  },
+  "inChat": {
+    "transferButton": "Transfer in Chat",
+    "invoiceButton": "Create Invoice",
+    "receiptTitle": "TON Transfer Receipt",
+    "receiptSent": "You sent {{amount}} {{currency}}",
+    "receiptReceived": "You received {{amount}} {{currency}}",
+    "invoiceTitle": "Payment Invoice",
+    "payInvoice": "Pay {{amount}} {{currency}}",
+    "invoicePaid": "Invoice Paid"
+  },
+  "paperWallet": {
+    "title": "Paper Wallet (Cold Storage)",
+    "desc": "Local generation of Ed25519 keypair without network connection.",
+    "generateButton": "Generate Cold Wallet",
+    "mnemonicTitle": "Cold Wallet Mnemonic",
+    "saveWarning": "Print or write down this seed phrase. It is stored in volatile memory only."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 & Crypto Wallet",
+    "connectBannerTitle": "Connection via TON Connect 2.0",
+    "connectBannerDesc": "Connect your non-custodial wallet for secure instant P2P transfers and fee-free invoice payments.",
+    "selectWallet": "Select a wallet to connect:",
+    "popularBadge": "Popular",
+    "watchOnlyPresets": "Quick Onchain Presets (Watch-Only):",
+    "watchOnlyMonitoring": "Onchain Monitoring",
+    "customAddressTitle": "Enter Wallet Address (Watch-Only / Manual Connect)",
+    "customAddressDesc": "Enter your public TON address (starts with UQ..., EQ... or 0:...) to view onchain balance and prepare transfers:",
+    "connectAddressButton": "Connect Address",
+    "checkingAddress": "Checking address...",
+    "moreOptionsToggle": "Paper wallet backup & manual address entry"
+  },
+  "invoice": {
+    "title": "Payment Invoice",
+    "statusPending": "Awaiting Payment",
+    "statusCompleted": "Paid",
+    "statusExpired": "Expired",
+    "payButton": "Pay {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "Transfer Receipt",
+    "txHash": "Transaction Hash"
+  }
+}

@@ -1,0 +1,38 @@
+/* Стили ЭЛТ-монитора и 3D-квеста */
+.crt-flicker {
+  animation: crt-glow-flicker 0.15s infinite;
+}
+
+@keyframes crt-glow-flicker {
+  0% { opacity: 0.985; filter: brightness(0.98) contrast(1.02); }
+  50% { opacity: 1; filter: brightness(1.0) contrast(1.0); }
+  100% { opacity: 0.99; filter: brightness(0.99) contrast(1.01); }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.custom-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Удобный скроллбар для терминала и лонгридов */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.terminal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.25) rgba(0, 0, 0, 0.35);
+}

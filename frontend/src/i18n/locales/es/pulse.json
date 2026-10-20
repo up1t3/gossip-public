@@ -1,0 +1,92 @@
+{
+  "title": "Gossip Pulse y Radar de Intenciones",
+  "tabs": {
+    "forYou": "Para ti",
+    "nearby": "Cerca (H3)",
+    "subscriptions": "Suscripciones",
+    "trends": "Tendencias",
+    "feed": "Feed de intenciones",
+    "zkAttest": "Certificados ZK",
+    "escrow": "Depósito en garantía DvP"
+  },
+  "stories": {
+    "title": "Historias",
+    "create": "Crear historia",
+    "viewAll": "Ver todas"
+  },
+  "createModal": {
+    "title": "Crear intención en Pulse",
+    "quickMode": "Ajuste rápido (30s)",
+    "legoMode": "Constructor Lego",
+    "titleLabel": "Título de la intención",
+    "titlePlaceholder": "Breve resumen de tu propuesta o solicitud...",
+    "descLabel": "Descripción detallada",
+    "descPlaceholder": "Describe condiciones, detalles y requisitos...",
+    "domainLabel": "Categoría de interacción",
+    "domains": {
+      "p2p": "Intercambio P2P / Trato",
+      "gig": "Freelance / Trabajo (DvP)",
+      "consensus": "Votación / Encuesta",
+      "aid": "Ayuda mutua / Colecta",
+      "events": "Evento / Encuentro",
+      "trade": "Comercio y Exportación",
+      "civic": "Elección cívica",
+      "whistleblow": "Testimonios y Denuncias"
+    },
+    "accordions": {
+      "trust": "Confianza y Reputación ZK",
+      "escrow": "Smart Escrow (Protección DvP)",
+      "privacy": "Privacidad y Anonimato",
+      "settlement": "Moneda y Liquidación",
+      "spatial": "Geolocalización H3 Res 8",
+      "quorum": "Quórum y Arbitraje"
+    },
+    "publishButton": "Publicar en Pulse",
+    "publishing": "Publicando intención...",
+    "anonymousToggle": "Publicación anónima (ZK-Nullifier)",
+    "titleHuman": "Nuevo anuncio"
+  },
+  "card": {
+    "anonymousAuthor": "Miembro anónimo",
+    "reputationScore": "Reputación ZK: {{score}}",
+    "expiresIn": "Expira en: {{time}}",
+    "respondButton": "Responder",
+    "startDeal": "Abrir trato seguro",
+    "tipTon": "Propina TON",
+    "like": "Me gusta",
+    "comments": "Comentarios ({{count}})",
+    "share": "Compartir"
+  },
+  "hub": {
+    "title": "Gossip Pulse y Capa Económica Soberana (SEL)",
+    "subtitle": "De tratos P2P a liquidaciones globales",
+    "tabsFeed": "Feed de intenciones",
+    "tabsZkAttest": "Certificados ZK",
+    "tabsEscrow": "Smart Escrow DvP",
+    "titleHuman": "Pulso y Acuerdos P2P",
+    "subtitleHuman": "Anuncios directos, acuerdos seguros con contrato inteligente y reputación verificada",
+    "tabsFeedHuman": "Tablón de anuncios",
+    "tabsZkAttestHuman": "Mis certificados",
+    "tabsEscrowHuman": "Depósitos en garantía"
+  },
+  "feed": {
+    "searchPlaceholder": "Buscar intenciones, ofertas, peticiones y proyectos...",
+    "geoRadarBtn": "Radar: {{radius}} km",
+    "geoRadarOff": "Geo-radar desactivado",
+    "filterAll": "Todos los dominios",
+    "filterP2p": "Moneda P2P",
+    "filterTrade": "Comercio exterior",
+    "filterCivic": "Elección cívica",
+    "filterAid": "Ayuda mutua",
+    "filterGig": "Tareas y Empleo",
+    "filterWhistleblow": "Denuncias"
+  },
+  "feedback": {
+    "modalTitle": "⭐ Calificación de contraparte (ZK Dual-Blind)",
+    "counterparty": "Contraparte del trato",
+    "ratingLabel": "Tu calificación de la interacción:",
+    "tagsLabel": "Selecciona etiquetas (hasta 4):",
+    "dualBlindInfo": "Dual-Blind Commit: tu calificación está sellada por hash y se revela simultáneamente con la otra parte. El chantaje o la represalia son imposibles.",
+    "submit": "Confirmar y enviar opinión"
+  }
+}

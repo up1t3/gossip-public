@@ -1,0 +1,92 @@
+{
+  "title": "Pulse",
+  "tabs": {
+    "forYou": "For You",
+    "nearby": "Nearby (H3)",
+    "subscriptions": "Subscriptions",
+    "trends": "Trends",
+    "feed": "Intent Feed",
+    "zkAttest": "ZK Attestations",
+    "escrow": "DvP Smart Escrow"
+  },
+  "stories": {
+    "title": "Stories",
+    "create": "Create Story",
+    "viewAll": "View All"
+  },
+  "createModal": {
+    "title": "Create Pulse Intent",
+    "quickMode": "Quick Preset (30s)",
+    "legoMode": "Lego Builder",
+    "titleLabel": "Intent Title",
+    "titlePlaceholder": "Brief summary of your offer or request...",
+    "descLabel": "Detailed Description",
+    "descPlaceholder": "Describe conditions, details and requirements...",
+    "domainLabel": "Interaction Category",
+    "domains": {
+      "p2p": "P2P Exchange / Deal",
+      "gig": "Freelance / Gig (DvP)",
+      "consensus": "Voting / Poll",
+      "aid": "Mutual Aid / Crowdfund",
+      "events": "Event / Meetup",
+      "trade": "Trade & Export",
+      "civic": "Civic Choice",
+      "whistleblow": "Whistleblowing"
+    },
+    "accordions": {
+      "trust": "Trust & ZK Reputation",
+      "escrow": "Smart Escrow (DvP Protection)",
+      "privacy": "Privacy & Anonymity",
+      "settlement": "Settlement & Currency",
+      "spatial": "Spatial H3 Res 8 Pin",
+      "quorum": "Quorum & Dispute Resolution"
+    },
+    "publishButton": "Publish to Pulse",
+    "publishing": "Publishing intent...",
+    "anonymousToggle": "Anonymous Publication (ZK-Nullifier)",
+    "titleHuman": "New Listing"
+  },
+  "card": {
+    "anonymousAuthor": "Anonymous Member",
+    "reputationScore": "ZK Reputation: {{score}}",
+    "expiresIn": "Expires in: {{time}}",
+    "respondButton": "Respond",
+    "startDeal": "Open Safe Deal",
+    "tipTon": "Tip TON",
+    "like": "Like",
+    "comments": "Comments ({{count}})",
+    "share": "Share"
+  },
+  "hub": {
+    "title": "Gossip Pulse & Sovereign Economic Layer",
+    "subtitle": "From P2P deals to global settlement",
+    "tabsFeed": "Intent Feed",
+    "tabsZkAttest": "ZK Attestations",
+    "tabsEscrow": "DvP Smart Escrow",
+    "titleHuman": "Pulse & P2P Deals",
+    "subtitleHuman": "Direct listings, smart-contract escrow deals, and zero-knowledge reputation proofs",
+    "tabsFeedHuman": "Listings Feed",
+    "tabsZkAttestHuman": "My Attestations",
+    "tabsEscrowHuman": "Escrow Deals"
+  },
+  "feed": {
+    "searchPlaceholder": "Search intents, offers, petitions and projects...",
+    "geoRadarBtn": "Radar: {{radius}} km",
+    "geoRadarOff": "Geo Radar Off",
+    "filterAll": "All Domains",
+    "filterP2p": "P2P Currency",
+    "filterTrade": "Trade & Export",
+    "filterCivic": "Civic Choice",
+    "filterAid": "Mutual Aid",
+    "filterGig": "Tasks & Gigs",
+    "filterWhistleblow": "Whistleblowing"
+  },
+  "feedback": {
+    "modalTitle": "⭐ Rate Counterparty (ZK Dual-Blind)",
+    "counterparty": "Deal Counterparty",
+    "ratingLabel": "Your interaction rating:",
+    "tagsLabel": "Select tags (up to 4):",
+    "dualBlindInfo": "Dual-Blind Commit: your rating is hash-sealed and revealed only when both parties submit. Retaliation and blackmail are impossible.",
+    "submit": "Confirm and Submit Feedback"
+  }
+}

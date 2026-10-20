@@ -1,0 +1,92 @@
+{
+  "title": "Gossip Pulse et Radar d'Intentions",
+  "tabs": {
+    "forYou": "Pour vous",
+    "nearby": "À proximité (H3)",
+    "subscriptions": "Abonnements",
+    "trends": "Tendances",
+    "feed": "Flux d'intentions",
+    "zkAttest": "Attestations ZK",
+    "escrow": "Séquestre intelligent DvP"
+  },
+  "stories": {
+    "title": "Stories",
+    "create": "Créer une story",
+    "viewAll": "Tout voir"
+  },
+  "createModal": {
+    "title": "Créer une intention Pulse",
+    "quickMode": "Préréglage rapide (30s)",
+    "legoMode": "Constructeur Lego",
+    "titleLabel": "Titre de l'intention",
+    "titlePlaceholder": "Bref résumé de votre offre ou demande...",
+    "descLabel": "Description détaillée",
+    "descPlaceholder": "Décrivez les conditions, détails et exigences...",
+    "domainLabel": "Catégorie d'interaction",
+    "domains": {
+      "p2p": "Échange P2P / Transaction",
+      "gig": "Freelance / Mission (DvP)",
+      "consensus": "Vote / Sondage",
+      "aid": "Entraide / Collecte",
+      "events": "Événement / Rencontre",
+      "trade": "Commerce & Export",
+      "civic": "Action civique",
+      "whistleblow": "Témoignages & Alertes"
+    },
+    "accordions": {
+      "trust": "Confiance et Réputation ZK",
+      "escrow": "Séquestre intelligent (Protection DvP)",
+      "privacy": "Confidentialité et Anonymat",
+      "settlement": "Devise et Règlement",
+      "spatial": "Géolocalisation H3 Res 8",
+      "quorum": "Quorum et Résolution des litiges"
+    },
+    "publishButton": "Publier dans Pulse",
+    "publishing": "Publication de l'intention...",
+    "anonymousToggle": "Publication anonyme (ZK-Nullifier)",
+    "titleHuman": "Nouvelle annonce"
+  },
+  "card": {
+    "anonymousAuthor": "Membre anonyme",
+    "reputationScore": "Réputation ZK : {{score}}",
+    "expiresIn": "Expire dans : {{time}}",
+    "respondButton": "Répondre",
+    "startDeal": "Ouvrir un accord sécurisé",
+    "tipTon": "Pourboire TON",
+    "like": "J'aime",
+    "comments": "Commentaires ({{count}})",
+    "share": "Partager"
+  },
+  "hub": {
+    "title": "Gossip Pulse et Couche Économique Souveraine (SEL)",
+    "subtitle": "Des échanges P2P aux règlements internationaux",
+    "tabsFeed": "Flux d'intentions",
+    "tabsZkAttest": "Attestations ZK",
+    "tabsEscrow": "Séquestre intelligent DvP",
+    "titleHuman": "Pulse & Transactions P2P",
+    "subtitleHuman": "Annonces directes, transactions sécurisées par contrat intelligent et réputation vérifiée",
+    "tabsFeedHuman": "Fil d'annonces",
+    "tabsZkAttestHuman": "Mes attestations",
+    "tabsEscrowHuman": "Contrats Escrow"
+  },
+  "feed": {
+    "searchPlaceholder": "Rechercher intentions, offres, pétitions et projets...",
+    "geoRadarBtn": "Radar : {{radius}} km",
+    "geoRadarOff": "Géo-radar désactivé",
+    "filterAll": "Tous les domaines",
+    "filterP2p": "Devises P2P",
+    "filterTrade": "Commerce international",
+    "filterCivic": "Action civique",
+    "filterAid": "Entraide",
+    "filterGig": "Tâches & Emploi",
+    "filterWhistleblow": "Alertes"
+  },
+  "feedback": {
+    "modalTitle": "⭐ Évaluation de la contrepartie (ZK Dual-Blind)",
+    "counterparty": "Contrepartie de l'accord",
+    "ratingLabel": "Votre note d'interaction :",
+    "tagsLabel": "Sélectionnez des tags (jusqu'à 4) :",
+    "dualBlindInfo": "Engagement en double aveugle : votre évaluation est scellée et révélée uniquement lorsque les deux parties ont soumis la leur.",
+    "submit": "Confirmer et envoyer l'avis"
+  }
+}

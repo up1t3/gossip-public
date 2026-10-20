@@ -1,0 +1,93 @@
+{
+  "title": "Portefeuille Crypto TON",
+  "tabs": {
+    "overview": "Aperçu",
+    "send": "Envoyer",
+    "deposit": "Recevoir",
+    "history": "Historique"
+  },
+  "overview": {
+    "totalBalance": "Solde total",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "Connecter TON Connect",
+    "disconnect": "Déconnecter le portefeuille",
+    "connectedAs": "Connecté : {{address}}",
+    "quickSend": "Envoyer",
+    "quickReceive": "Recevoir",
+    "refreshBalances": "Actualiser les soldes"
+  },
+  "send": {
+    "recipientLabel": "Adresse du destinataire ou domaine .ton",
+    "recipientPlaceholder": "EQ... ou domaine.ton",
+    "amountLabel": "Montant du transfert",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "Commentaire (Memo / Tag)",
+    "memoPlaceholder": "Facultatif",
+    "assetSelect": "Devise",
+    "available": "Disponible : {{amount}} {{symbol}}",
+    "sendButton": "Envoyer {{amount}} {{symbol}}",
+    "confirming": "Signature de la transaction dans le portefeuille...",
+    "success": "Transfert envoyé avec succès !",
+    "invalidAddress": "Adresse de réseau TON invalide",
+    "insufficientFunds": "Fonds insuffisants"
+  },
+  "deposit": {
+    "title": "Recevoir des actifs",
+    "desc": "Envoyez des TON ou USDT à votre adresse personnelle :",
+    "copyAddress": "Copier l'adresse",
+    "shareQr": "Partager le code QR",
+    "warning": "Envoyez uniquement des actifs du réseau TON (The Open Network). L'envoi d'autres jetons entraînera leur perte définitive."
+  },
+  "history": {
+    "title": "Historique des transactions",
+    "empty": "Aucune transaction pour le moment",
+    "incoming": "Transfert entrant",
+    "outgoing": "Transfert sortant",
+    "fee": "Frais de réseau : {{fee}} TON",
+    "viewExplorer": "Voir sur TonScan"
+  },
+  "inChat": {
+    "transferButton": "Transférer dans la discussion",
+    "invoiceButton": "Créer une facture",
+    "receiptTitle": "Reçu de transfert TON",
+    "receiptSent": "Vous avez envoyé {{amount}} {{currency}}",
+    "receiptReceived": "Vous avez reçu {{amount}} {{currency}}",
+    "invoiceTitle": "Facture de paiement",
+    "payInvoice": "Payer {{amount}} {{currency}}",
+    "invoicePaid": "Facture payée"
+  },
+  "paperWallet": {
+    "title": "Portefeuille papier (Paper Wallet)",
+    "desc": "Génération locale de paires de clés Ed25519 sans connexion Internet.",
+    "generateButton": "Générer un portefeuille froid",
+    "mnemonicTitle": "Mnémonique du portefeuille froid",
+    "saveWarning": "Imprimez ou notez cette phrase de récupération. Elle est stockée uniquement en mémoire volatile."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 et Portefeuille Crypto",
+    "connectBannerTitle": "Connexion via TON Connect 2.0",
+    "connectBannerDesc": "Connectez votre portefeuille non-gardien pour des transferts P2P instantanés et sécurisés sans frais de service.",
+    "selectWallet": "Sélectionnez un portefeuille à connecter :",
+    "popularBadge": "Populaire",
+    "watchOnlyPresets": "Préréglages Onchain (Mode lecture seule) :",
+    "watchOnlyMonitoring": "Surveillance Onchain",
+    "customAddressTitle": "Entrer l'adresse du portefeuille (Lecture seule / Manuel)",
+    "customAddressDesc": "Entrez votre adresse TON publique (commençant par UQ..., EQ... ou 0:...) pour consulter le solde :",
+    "connectAddressButton": "Connecter l'adresse",
+    "checkingAddress": "Vérification de l'adresse...",
+    "moreOptionsToggle": "Sauvegarde papier et saisie manuelle d'adresse"
+  },
+  "invoice": {
+    "title": "Facture de paiement",
+    "statusPending": "En attente de paiement",
+    "statusCompleted": "Payée",
+    "statusExpired": "Expirée",
+    "payButton": "Payer {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "Reçu de transfert",
+    "txHash": "Hash de transaction"
+  }
+}

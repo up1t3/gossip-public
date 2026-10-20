@@ -1,0 +1,160 @@
+{
+  "list": {
+    "title": "Чаты",
+    "searchPlaceholder": "Поиск диалогов и сообщений...",
+    "allChatsTab": "Все",
+    "dlpSafeBadge": "Сейф",
+    "emptyChats": "Чаты не найдены",
+    "noSearchResults": "Ничего не найдено",
+    "globalSearchTitle": "Глобальный поиск",
+    "startChatPrompt": "Нажмите, чтобы начать общение",
+    "messagesSection": "Сообщения",
+    "createChatTooltip": "Новый чат / группа",
+    "prekeysPublishing": "Ключи шифрования публикуются на сервере...",
+    "prekeysError": "Ошибка публикации ключей шифрования",
+    "selfAccount": "Это ваш аккаунт",
+    "selectChatPrompt": "Выберите чат для начала общения",
+    "emptyChatsTitle": "Пока нет активных диалогов",
+    "emptyChatsHint": "Начните защищённый чат по никнейму или найдите устройства рядом через офлайн-радар",
+    "selectChatSub": "Все сообщения защищены сквозным шифрованием E2EE на вашем устройстве"
+  },
+  "folders": {
+    "modalTitle": "Папки чатов",
+    "modalTitleCreate": "Создать папку",
+    "modalTitleEdit": "Редактировать папку",
+    "createFolder": "Создать папку",
+    "emptyTitle": "У вас пока нет папок",
+    "emptyDesc": "Нажмите «Создать», чтобы добавить первую папку",
+    "folderName": "Название папки",
+    "folderNamePlaceholder": "Например: Работа, Семья, Сейф...",
+    "folderIcon": "Иконка",
+    "includedChats": "Включенные чаты",
+    "dlpContourToggle": "Сейф-Контур (152-ФЗ / DLP)",
+    "dlpContourDesc": "Запрет копирования, пересылки и экспорта сообщений из этой папки",
+    "chatsCount": "Выбрано чатов: {{count}}",
+    "saveFolder": "Сохранить папку",
+    "deleteFolder": "Удалить папку"
+  },
+  "header": {
+    "online": "в сети",
+    "offline": "был(а) недавно",
+    "typing": "печатает...",
+    "recordingAudio": "записывает аудио...",
+    "recordingVideo": "записывает видео-сообщение...",
+    "groupMembers_one": "{{count}} участник",
+    "groupMembers_few": "{{count}} участника",
+    "groupMembers_many": "{{count}} участников",
+    "groupMembers_other": "{{count}} участников",
+    "menuSearch": "Поиск в чате",
+    "menuTransfer": "Криптоперевод TON",
+    "menuWallet": "Криптокошелек TON",
+    "menuDlp": "Сейф-Контур (DLP)",
+    "menuGroupInfo": "Информация о группе",
+    "menuDeleteChat": "Удалить чат",
+    "menuClearHistory": "Очистить историю",
+    "publicChannel": "Публичный канал",
+    "groupChat": "Групповой чат",
+    "verifyEncryption": "Сверить код защиты чата",
+    "ttlTimer": "Автоудаление сообщений",
+    "scheduledMessages": "Отложенные сообщения",
+    "scheduleCurrent": "Запланировать отправку сообщения"
+  },
+  "pinned": {
+    "pinnedMessage": "Закрепленное сообщение",
+    "unpin": "Открепить",
+    "multiplePinned": "{{current}} из {{total}} закреплений"
+  },
+  "input": {
+    "placeholder": "Сообщение",
+    "replyTitle": "Ответ на сообщение",
+    "editTitle": "Редактирование сообщения",
+    "sendTooltip": "Отправить",
+    "recordVoiceTooltip": "Зажмите для записи голоса, нажмите для видео-кружка",
+    "recordVideoTooltip": "Зажмите для записи видео-кружка, нажмите для голоса",
+    "recordingVoice": "Запись аудио: {{duration}} сек",
+    "attachFile": "Прикрепить файл, фото или видео",
+    "emojiPicker": "Смайлики и стикеры",
+    "uploadingProgress": "Загрузка на сервер: {{progress}}%",
+    "uploadReady": "Файл готов к отправке",
+    "captionPlaceholder": "Добавить подпись...",
+    "emoji": "Смайлики и стикеры"
+  },
+  "mediaDrawer": {
+    "title": "Прикрепить к сообщению",
+    "liveCamera": "Камера",
+    "gallery": "Галерея",
+    "gallerySub": "Медиа",
+    "file": "Файл",
+    "fileSub": "Документ",
+    "location": "Геолокация",
+    "tonTransfer": "TON",
+    "tonSub": "Перевод",
+    "fullscreen": "Полный экран",
+    "cameraSwitch": "Сменить камеру",
+    "flashToggle": "Вспышка"
+  },
+  "sharedMedia": {
+    "title": "Материалы чата",
+    "tabMedia": "Медиа",
+    "tabFiles": "Файлы",
+    "tabVoice": "Голосовые",
+    "tabLinks": "Ссылки",
+    "emptyMedia": "Нет общих медиафайлов",
+    "emptyFiles": "Нет прикрепленных файлов",
+    "emptyVoice": "Нет голосовых сообщений",
+    "emptyLinks": "Нет сохраненных ссылок"
+  },
+  "messageMenu": {
+    "reply": "Ответить",
+    "copy": "Копировать текст",
+    "edit": "Изменить",
+    "pin": "Закрепить",
+    "unpin": "Открепить",
+    "forward": "Переслать",
+    "deleteForMe": "Удалить у меня",
+    "deleteForEveryone": "Удалить у всех",
+    "saveMedia": "Сохранить файл",
+    "report": "Пожаловаться"
+  },
+  "serviceMessages": {
+    "sessionReset": "Системное сообщение: криптографическая сессия обновлена",
+    "chatCreated": "Чат создан с защитой MLS E2EE",
+    "groupCreated": "Группа создана пользователем {{user}}",
+    "userJoined": "{{user}} присоединился(-лась) к группе",
+    "userLeft": "{{user}} покинул(а) группу"
+  },
+  "group": {
+    "manageTitle": "Группа: {{name}}",
+    "epochLabel": "Текущая эпоха MLS:",
+    "addMember": "Добавить участника",
+    "membersCount": "Участники ({{count}})",
+    "removeMember": "Удалить"
+  },
+  "bots": {
+    "title": "Боты и Интеграции",
+    "createNew": "Создать нового бота",
+    "tokenLabel": "HTTP API Токен бота"
+  },
+  "audio": {
+    "recording": "Запись аудио: {{duration}} сек."
+  },
+  "edit": {
+    "title": "Редактирование сообщения"
+  },
+  "file": {
+    "captionPhoto": "Добавить подпись к фото...",
+    "captionVideo": "Добавить подпись к видео...",
+    "preview": "Превью",
+    "ready": "Файл готов к отправке",
+    "uploading": "Загрузка на сервер..."
+  },
+  "message": {
+    "me": "Я"
+  },
+  "reply": {
+    "to": "Ответ на сообщение {{user}}"
+  },
+  "newChat": {
+    "button": "Новый чат"
+  }
+}

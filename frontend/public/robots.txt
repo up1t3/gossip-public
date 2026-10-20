@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /static/media/temp/
+
+Sitemap: https://skuf-net.ru/sitemap.xml
+Host: https://skuf-net.ru

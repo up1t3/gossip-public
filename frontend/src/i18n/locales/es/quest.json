@@ -1,0 +1,213 @@
+{
+  "header": {
+    "title": "GOSSIP_CHRONICLES // CRÓNICAS DE LA LIBERTAD",
+    "years": "1450 — 2026+",
+    "subtitle": "Por qué el secreto del pensamiento y el diálogo libre definen el futuro de la humanidad",
+    "soundOff": "Silenciar sonido",
+    "soundOn": "Activar sonido"
+  },
+  "tabs": {
+    "epochs": "1. Crónica de Épocas",
+    "manifest": "2. Teletipo-Manifiesto",
+    "gliderKey": "3. Clave Glider"
+  },
+  "epochsView": {
+    "reporterChronicle": "CRÓNICA PERIODÍSTICA // {{year}}",
+    "loading": "Cargando crónica...",
+    "epochCount": "Época {{current}} de {{total}}",
+    "threatLabel": "Lo que intentaron prohibir y destruir:",
+    "courageLabel": "Cómo la sociedad defendió el derecho al saber:",
+    "legacyLabel": "A qué condujo la victoria de la libre expresión:",
+    "nextEpoch": "Siguiente época",
+    "readManifest": "Leer Manifiesto"
+  },
+  "epochs": {
+    "gutenberg": {
+      "short": "Gutenberg",
+      "year": "1450",
+      "location": "Maguncia, Alemania / Europa",
+      "title": "La Imprenta de Gutenberg y la Revolución Científica",
+      "subtitle": "El fin del monopolio del saber y el nacimiento de la Ilustración",
+      "threat": "Antes de la imprenta, los libros se copiaban a mano durante años. Gobernantes e inquisidores ordenaban quemar talleres bajo pena de muerte.",
+      "courage": "Los maestros impresores transportaban tipos móviles en secreto, abriendo imprentas clandestinas en toda Europa y difundiendo tratados médicos y filosóficos.",
+      "legacy": "Los tipos móviles impulsaron la Revolución Científica de Copérnico y Newton, fundaron la medicina moderna y sacaron a la humanidad de la Edad Media.",
+      "quote": "«Dad a la gente luz y ellos encontrarán su camino».",
+      "author": "Dante Alighieri / Tradición de la Ilustración",
+      "tags": [
+        "Revolución Científica",
+        "Imprenta",
+        "Ilustración"
+      ]
+    },
+    "zenger": {
+      "short": "Zenger",
+      "year": "1735",
+      "location": "Nueva York, EE.UU. / Gran Bretaña",
+      "title": "El Juicio de John Peter Zenger: «La verdad no es un delito»",
+      "subtitle": "Nacimiento de la prensa libre y la Primera Enmienda",
+      "threat": "El gobernador William Cosby encarceló a Zenger por publicar artículos sobre la corrupción oficial, considerando delito cualquier crítica al poder.",
+      "courage": "El abogado Andrew Hamilton, de 80 años, defendió ante el jurado que decir la verdad sobre el poder es un derecho inviolable. El jurado absolvió a Zenger.",
+      "legacy": "El caso sentó las bases de la libertad de prensa y de expresión como salvaguarda contra la tiranía.",
+      "quote": "«La libertad de hablar con la verdad es el único escudo de los débiles».",
+      "author": "Andrew Hamilton, Discurso judicial (1735)",
+      "tags": [
+        "Libertad de expresión",
+        "Defensa legal",
+        "Anticorrupción"
+      ]
+    },
+    "samizdat": {
+      "short": "Samizdat",
+      "year": "1960–1980",
+      "location": "URSS / Europa del Este",
+      "title": "La Era del Samizdat: Máquinas de escribir y 4 copias de carbón",
+      "subtitle": "Resistencia cultural frente a la censura total del Estado",
+      "threat": "Los censores estatales controlaban cada palabra impresa. Grandes obras literarias estaban prohibidas y las fotocopiadoras vigiladas.",
+      "courage": "Ciudadanos pasaban noches mecanografiando copias con papel carbón y encuadernándolas a mano con riesgo de arresto.",
+      "legacy": "El Samizdat salvó el patrimonio cultural de la desaparición, demostrando que la verdad trasciende toda prohibición.",
+      "quote": "«Una palabra de verdad pesa más que el mundo entero».",
+      "author": "Aleksandr Solzhenitsyn, Conferencia Nobel",
+      "tags": [
+        "Samizdat",
+        "Patrimonio cultural",
+        "Resiliencia"
+      ]
+    },
+    "crypto_wars": {
+      "short": "PGP",
+      "year": "1991–1996",
+      "location": "California, EE.UU. / Global",
+      "title": "Las Primeras Guerras Criptográficas y PGP de Phil Zimmermann",
+      "subtitle": "Cómo imprimir el código fuente en un libro salvó la privacidad digital",
+      "threat": "El gobierno intentó prohibir la criptografía ciudadana fuerte clasificándola como arma de guerra e imponer chips espía en todos los ordenadores.",
+      "courage": "Phil Zimmermann creó PGP libremente. Activistas imprimieron el código en un libro físico protegido por la libertad de prensa.",
+      "legacy": "La victoria de los cypherpunks legalizó el cifrado y permitió la existencia de HTTPS, banca electrónica y privacidad para miles de millones.",
+      "quote": "«Si la privacidad es declarada ilegal, solo los criminales tendrán privacidad».",
+      "author": "Phil Zimmermann, Creador de PGP (1991)",
+      "tags": [
+        "Cripto-guerras",
+        "PGP y HTTPS",
+        "Cypherpunks"
+      ]
+    },
+    "digital_mesh": {
+      "short": "Mesh",
+      "year": "2010–2020",
+      "location": "Asia, Oriente Medio, África, América Latina",
+      "title": "Resistencia Digital: Redes Mesh en Apagones Totales",
+      "subtitle": "Ayuda mutua y salvamento de vidas durante cortes de internet",
+      "threat": "Gobiernos comenzaron a apagar internet y redes móviles durante crisis, paralizando servicios médicos y prensa independiente.",
+      "courage": "Ingenieros y voluntarios crearon redes malladas Bluetooth/Wi-Fi Mesh para transmitir mensajes cifrados directamente entre móviles.",
+      "legacy": "La experiencia demostró que las redes malladas soberanas salvan vidas y garantizan la verdad en crisis.",
+      "quote": "«Cuando cortan los cables, la comunicación pasa al aire entre nosotros».",
+      "author": "Manifiesto Mesh, Activismo Digital",
+      "tags": [
+        "BLE Mesh",
+        "Anti-Apagón",
+        "Radio Autónoma"
+      ]
+    },
+    "future": {
+      "short": "Gossip",
+      "year": "2026+",
+      "location": "Espacio Digital Global",
+      "title": "Privacidad Soberana: MLS Poscuántico y Gossip Mesh",
+      "subtitle": "Un futuro donde la comunicación pertenece a las personas y no a servidores",
+      "threat": "La vigilancia masiva, el monopolio de las nubes y el descifrado cuántico exigen un nuevo estándar inviolable.",
+      "courage": "Gossip elimina servidores centrales: los datos residen en SQLite cifrado localmente, protegidos con MLS poscuántico y enlace Bluetooth.",
+      "legacy": "La privacidad del pensamiento es un derecho humano inalienable (Art. 12 DUDH). La libertad de información impulsa el progreso de la humanidad.",
+      "quote": "«El derecho al secreto del pensamiento es el cimiento de toda mente libre».",
+      "author": "Manifiesto Gossip Protocol",
+      "tags": [
+        "MLS Poscuántico",
+        "SQLite Local",
+        "Descentralización"
+      ]
+    }
+  },
+  "manifestView": {
+    "active": "TELETIPO DE LA LIBRE EXPRESIÓN",
+    "paused": "TELETIPO: PAUSA",
+    "pause": "Pausa",
+    "resume": "Continuar",
+    "speed": "Velocidad:",
+    "all": "Todo",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "scrollToBottom": "Bajar a nuevas líneas",
+    "restart": "Reiniciar desde el principio",
+    "createGliderKey": "Crear Clave Glider",
+    "lines": [
+      "=== CRÓNICAS DE LA LIBERTAD DE INFORMACIÓN // GOSSIP PROTOCOL ===",
+      "",
+      "> [ESTADO] Protocolo de libre expresión activo.",
+      "> [AXIOMA] La información no es un arma. La información es luz.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "1. ¿POR QUÉ EL SECRETO DE LAS COMUNICACIONES ES HIGIENE BÁSICA?",
+      "--------------------------------------------------------------------------------",
+      "A menudo se dice: «Si no tienes nada que ocultar, ¿para qué necesitas cifrado?»",
+      "Es una falacia peligrosa. Cerrar la puerta de tu casa no es signo de culpa.",
+      "Es un derecho natural a la intimidad y la dignidad.",
+      "",
+      "Sin criptografía y privacidad dejarían de existir:",
+      "  • El secreto médico y la relación de confianza médico-paciente;",
+      "  • El secreto profesional del abogado y una justicia imparcial;",
+      "  • La seguridad bancaria y el ahorro de los ciudadanos;",
+      "  • La protección de científicos y creadores frente al plagio;",
+      "  • El espacio íntimo, la libertad de pensamiento y la dignidad humana.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "2. ¿A QUÉ CONDUJERON SIEMPRE LAS PROHIBICIONES Y LA CENSURA?",
+      "--------------------------------------------------------------------------------",
+      "Cada vez que se prohibió la difusión del saber:",
+      "  [!] Prohibir la imprenta sumió a naciones enteras en la superstición y la miseria.",
+      "  [!] Ocultar epidemias de cólera y peste multiplicó las muertes catastróficas.",
+      "  [!] Prohibir la genética retrasó la biología durante 40 años.",
+      "  [!] Ocultar el desastre de Chernóbil en 1986 costó miles de vidas inocentes.",
+      "",
+      "La censura jamás resolvió problemas; solo perpetuó el atraso.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "3. ¿QUÉ APORTA A LA HUMANIDAD EL LIBRE INTERCAMBIO DE SABER?",
+      "--------------------------------------------------------------------------------",
+      "  [+] El acceso abierto a publicaciones científicas permitió vacunas salvadoras.",
+      "  [+] La prensa libre destapa la corrupción antes de que cause tragedias.",
+      "  [+] El cifrado abierto creó la economía digital global, HTTPS y los pagos seguros.",
+      "  [+] Las redes Mesh autónomas salvan heridos y coordinan auxilio en catástrofes.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "4. NUESTRO PRINCIPIO: COMUNICACIÓN SIN AMOS NI INTERMEDIARIOS",
+      "--------------------------------------------------------------------------------",
+      "Gossip está diseñado para que tu voz te pertenezca:",
+      "  • Tus datos residen en SQLite cifrado localmente en tu dispositivo.",
+      "  • Ningún servidor lee ni almacena tus mensajes.",
+      "  • Si se corta internet, Bluetooth Mesh enlaza a las personas directamente.",
+      "",
+      "«Puedes bloquear un servidor, pero no puedes detener una idea cuyo momento ha llegado».",
+      "--------------------------------------------------------------------------------",
+      "[CONCLUSIÓN] La libertad de información es el motor de la ciencia, la prosperidad y la humanidad."
+    ]
+  },
+  "gliderView": {
+    "title": "Glider de Soberanía",
+    "desc": "Genere un Conway Glider matemático único basado en su nombre: un emblema digital de apoyo a la privacidad del pensamiento.",
+    "inputLabel": "Nombre del nodo soberano",
+    "inputPlaceholder": "Introduzca su nombre o identificador...",
+    "generating": "Calculando matriz del autómata...",
+    "generateBtn": "Generar Emblema Digital",
+    "principleTitle": "Principio de Soberanía:",
+    "principleDesc": "Su avatar y clave se generan en su propio procesador y se guardan en SQLite cifrado local.",
+    "nodeLabel": "NODO:",
+    "statusFull": "ESTADO: SOBERANÍA DIGITAL TOTAL",
+    "copyManifest": "Manifiesto",
+    "manifestCopied": "¡Manifiesto copiado!",
+    "toProfile": "Al perfil",
+    "activated": "Activado ✓",
+    "waitingInput": "Esperando el nombre del nodo para iniciar el autómata celular..."
+  },
+  "footer": {
+    "article": "FREEDOM_OF_INFORMATION // ARTICLE_12_UN",
+    "copyright": "© 2026 GOSSIP NETWORK INFRASTRUCTURE"
+  }
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="neonGradientTr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff87"/>
+      <stop offset="50%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <filter id="bloomFilterTr" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Master Glider Icon Container -->
+  <g transform="translate(15, 15)">
+    <rect width="150" height="150" rx="36" fill="#0f172a" stroke="#334155" stroke-width="2" />
+    <rect width="150" height="150" rx="36" fill="none" stroke="url(#neonGradientTr)" stroke-width="2" opacity="0.4" />
+    
+    <!-- 3x3 Glider Grid Inside -->
+    <g transform="translate(33, 33)" filter="url(#bloomFilterTr)">
+      <!-- Row 0: [0, 1, 0] -->
+      <rect x="30" y="0" width="24" height="24" rx="6" fill="url(#neonGradientTr)" />
+      <!-- Row 1: [0, 0, 1] -->
+      <rect x="60" y="30" width="24" height="24" rx="6" fill="url(#neonGradientTr)" />
+      <!-- Row 2: [1, 1, 1] -->
+      <rect x="0" y="60" width="24" height="24" rx="6" fill="url(#neonGradientTr)" />
+      <rect x="30" y="60" width="24" height="24" rx="6" fill="url(#neonGradientTr)" />
+      <rect x="60" y="60" width="24" height="24" rx="6" fill="url(#neonGradientTr)" />
+    </g>
+  </g>
+
+  <!-- Wordmark Typography -->
+  <text x="195" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="76" font-weight="900" letter-spacing="-1.5" fill="#ffffff">
+    Gossip
+  </text>
+
+  <!-- MLS E2EE Badge -->
+  <g transform="translate(470, 42)">
+    <rect width="120" height="32" rx="8" fill="rgba(0, 242, 254, 0.12)" stroke="rgba(0, 242, 254, 0.4)" stroke-width="1.2"/>
+    <text x="60" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="800" fill="#38bdf8" text-anchor="middle" letter-spacing="1">
+      MLS E2EE
+    </text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="198" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="0.5">
+    Zero-Knowledge • Без SIM-карт • Постквантовая защита
+  </text>
+</svg>

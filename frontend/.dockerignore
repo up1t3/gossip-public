@@ -1,0 +1,17 @@
+node_modules
+android
+ios
+.git
+.agents
+*.log
+*.png
+*.wav
+*.mp4
+*.apk
+*.exe
+temp_media
+E2E
+screenshots
+!dist/**
+dist/*.apk
+dist/*.exe

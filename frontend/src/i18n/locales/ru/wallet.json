@@ -1,0 +1,93 @@
+{
+  "title": "Кошелек",
+  "tabs": {
+    "overview": "Обзор",
+    "send": "Отправить",
+    "deposit": "Пополнить",
+    "history": "История"
+  },
+  "overview": {
+    "totalBalance": "Общий баланс",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "Подключить TON Connect",
+    "disconnect": "Отключить кошелек",
+    "connectedAs": "Подключен: {{address}}",
+    "quickSend": "Отправить",
+    "quickReceive": "Получить",
+    "refreshBalances": "Обновить баланс"
+  },
+  "send": {
+    "recipientLabel": "Адрес получателя или .ton домен",
+    "recipientPlaceholder": "EQ... или domain.ton",
+    "amountLabel": "Сумма перевода",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "Комментарий (Memo / Tag)",
+    "memoPlaceholder": "Опционально",
+    "assetSelect": "Валюта",
+    "available": "Доступно: {{amount}} {{symbol}}",
+    "sendButton": "Отправить {{amount}} {{symbol}}",
+    "confirming": "Подписание транзакции в кошельке...",
+    "success": "Перевод успешно отправлен!",
+    "invalidAddress": "Некорректный адрес сети TON",
+    "insufficientFunds": "Недостаточно средств на балансе"
+  },
+  "deposit": {
+    "title": "Пополнение баланса",
+    "desc": "Отправьте TON или USDT на ваш персональный адрес:",
+    "copyAddress": "Скопировать адрес",
+    "shareQr": "Поделиться QR-кодом",
+    "warning": "Отправляйте только активы сети TON (The Open Network). Отправка других токенов приведет к их безвозвратной потере."
+  },
+  "history": {
+    "title": "История транзакций",
+    "empty": "Транзакции отсутствуют",
+    "incoming": "Входящий перевод",
+    "outgoing": "Исходящий перевод",
+    "fee": "Комиссия сети: {{fee}} TON",
+    "viewExplorer": "Посмотреть в TonScan"
+  },
+  "inChat": {
+    "transferButton": "Перевести в чате",
+    "invoiceButton": "Выставить счет",
+    "receiptTitle": "Квитанция перевода TON",
+    "receiptSent": "Вы отправили {{amount}} {{currency}}",
+    "receiptReceived": "Вы получили {{amount}} {{currency}}",
+    "invoiceTitle": "Счет на оплату",
+    "payInvoice": "Оплатить {{amount}} {{currency}}",
+    "invoicePaid": "Счет оплачен"
+  },
+  "paperWallet": {
+    "title": "Бумажный кошелек (Paper Wallet)",
+    "desc": "Локальная генерация пары ключей Ed25519 без подключения к сети.",
+    "generateButton": "Сгенерировать холодный кошелек",
+    "mnemonicTitle": "Мнемоника холодного кошелька",
+    "saveWarning": "Распечатайте или перепишите эту фразу. Она хранится только в оперативной памяти."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 & Криптокошелек",
+    "connectBannerTitle": "Подключение по протоколу TON Connect 2.0",
+    "connectBannerDesc": "Подключите ваш некастодиальный кошелек для безопасных мгновенных P2P-переводов и оплаты инвойсов без комиссий сервиса.",
+    "selectWallet": "Выберите кошелек для подключения:",
+    "popularBadge": "Популярный",
+    "watchOnlyPresets": "Быстрые ончейн-пресеты (Watch-Only):",
+    "watchOnlyMonitoring": "Ончейн-мониторинг",
+    "customAddressTitle": "Ввод адреса кошелька (Watch-Only / Ручное подключение)",
+    "customAddressDesc": "Введите ваш публичный TON-адрес (начинается на UQ..., EQ... или 0:...) для проверки ончейн-баланса и формирования переводов:",
+    "connectAddressButton": "Подключить адрес",
+    "checkingAddress": "Проверка адреса...",
+    "moreOptionsToggle": "Резервный бумажный ключ и ручной ввод адреса"
+  },
+  "invoice": {
+    "title": "Счет на оплату",
+    "statusPending": "Ожидает оплаты",
+    "statusCompleted": "Оплачен",
+    "statusExpired": "Срок действия истек",
+    "payButton": "Оплатить {{amount}} {{currency}}"
+  },
+  "receipt": {
+    "title": "Квитанция перевода",
+    "txHash": "Хэш транзакции"
+  }
+}

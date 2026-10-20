@@ -1,0 +1,213 @@
+{
+  "header": {
+    "title": "GOSSIP_CHRONICLES // FREEDOM CHRONICLES",
+    "years": "1450 — 2026+",
+    "subtitle": "Why freedom of thought and open dialogue shape the future of humanity",
+    "soundOff": "Mute sound",
+    "soundOn": "Unmute sound"
+  },
+  "tabs": {
+    "epochs": "1. Chronicle of Epochs",
+    "manifest": "2. Teletype Manifesto",
+    "gliderKey": "3. Glider Key"
+  },
+  "epochsView": {
+    "reporterChronicle": "REPORTER CHRONICLE // {{year}}",
+    "loading": "Loading chronicle...",
+    "epochCount": "Epoch {{current}} of {{total}}",
+    "threatLabel": "What they sought to ban and destroy:",
+    "courageLabel": "How people defended the right to know:",
+    "legacyLabel": "Where freedom of speech led humanity:",
+    "nextEpoch": "Next epoch",
+    "readManifest": "Read Manifesto"
+  },
+  "epochs": {
+    "gutenberg": {
+      "short": "Gutenberg",
+      "year": "1450",
+      "location": "Mainz, Germany / Europe",
+      "title": "Gutenberg's Printing Press & The Scientific Revolution",
+      "subtitle": "The fall of knowledge monopolies and the dawn of the Enlightenment",
+      "threat": "Before the press, books were copied by hand for years. Inquisitors and rulers demanded the burning of presses, fearing widespread literacy as a threat of heresy and unrest.",
+      "courage": "Master printers smuggled movable types, opened underground shops across Europe, and distributed medical and philosophical works in the millions.",
+      "legacy": "Movable type sparked the Scientific Revolution of Copernicus and Newton, founded modern medicine, halted epidemics through sanitation literacy, and brought humanity out of the Dark Ages.",
+      "quote": "“Give light, and the people will find their own way.”",
+      "author": "Dante Alighieri / Enlightenment Tradition",
+      "tags": [
+        "Scientific Revolution",
+        "Printing Press",
+        "Enlightenment"
+      ]
+    },
+    "zenger": {
+      "short": "Zenger",
+      "year": "1735",
+      "location": "New York, USA / Great Britain",
+      "title": "The Trial of John Peter Zenger: 'Truth is Not a Crime'",
+      "subtitle": "Birth of free press and the First Amendment",
+      "threat": "Governor William Cosby imprisoned publisher Zenger for exposing administrative corruption. Colonial law deemed any official criticism criminal sedition, regardless of veracity.",
+      "courage": "80-year-old attorney Andrew Hamilton argued before the jury that speaking truth regarding power is an inalienable civic right. The jury unanimously acquitted Zenger.",
+      "legacy": "This trial anchored the First Amendment, cementing independent investigative journalism as the essential safeguard against tyranny.",
+      "quote": "“The liberty of speaking truth is the only shield of the weak against the powerful.”",
+      "author": "Andrew Hamilton, Court Defense (1735)",
+      "tags": [
+        "Free Speech",
+        "Legal Defense",
+        "Anti-Corruption"
+      ]
+    },
+    "samizdat": {
+      "short": "Samizdat",
+      "year": "1960s–1980s",
+      "location": "USSR / Eastern Europe",
+      "title": "The Samizdat Era: Erika Typewriters and 4 Carbon Copies",
+      "subtitle": "Cultural resilience against total state censorship",
+      "threat": "State censors controlled every printed word. World literary masterpieces and scientific treatises were banned. Copiers were strictly guarded by secret police.",
+      "courage": "Citizens secretly typed up to five carbon copies per night on manual typewriters. Manuscripts were hand-bound and passed covertly from hand to hand under threat of imprisonment.",
+      "legacy": "Samizdat preserved culture from erasure, proving human thirst for truth defies all bans. Isolating discourse only cemented systemic stagnation.",
+      "quote": "“One word of truth outweighs the whole world.”",
+      "author": "Aleksandr Solzhenitsyn, Nobel Lecture",
+      "tags": [
+        "Samizdat",
+        "Cultural Heritage",
+        "Resilience"
+      ]
+    },
+    "crypto_wars": {
+      "short": "PGP",
+      "year": "1991–1996",
+      "location": "California, USA / Global",
+      "title": "First Crypto Wars & Phil Zimmermann: Birth of PGP",
+      "subtitle": "How printing source code in a book saved digital privacy",
+      "threat": "Authorities attempted to classify civilian strong encryption as munitions (ITAR), seeking to mandate Clipper Chip hardware backdoors in every device.",
+      "courage": "Phil Zimmermann created PGP and released it openly. Facing a federal criminal probe, activists published the full PGP source code as a physical book protected by the First Amendment.",
+      "legacy": "The Cypherpunks' victory legalized cryptography, making HTTPS, modern banking, e-commerce, and digital civil liberties possible worldwide.",
+      "quote": "“If privacy is outlawed, only outlaws will have privacy.”",
+      "author": "Phil Zimmermann, Creator of PGP (1991)",
+      "tags": [
+        "Crypto Wars",
+        "PGP & HTTPS",
+        "Cypherpunks"
+      ]
+    },
+    "digital_mesh": {
+      "short": "Mesh",
+      "year": "2010s–2020s",
+      "location": "Asia, Middle East, Africa, Latin America",
+      "title": "Digital Resistance: Mesh Networks in Total Blackouts",
+      "subtitle": "Mutual aid and life-saving coordination during network shutdowns",
+      "threat": "Governments deployed 'Internet Shutdowns', severing mobile towers, spoofing DNS, and paralyzing emergency services and independent monitors.",
+      "courage": "Engineers and volunteers built ad-hoc BLE/Wi-Fi mesh networks and radio bridges. Mobile phones relayed encrypted payloads directly without internet or cellular connectivity.",
+      "legacy": "Blackout experiences showed communication shutdowns cause billions in economic harm, while sovereign mesh networks save lives and preserve undeniable truth.",
+      "quote": "“When they cut the cables, communication takes to the air between us.”",
+      "author": "Digital Activist Chronicle, Mesh Manifesto",
+      "tags": [
+        "BLE Mesh",
+        "Anti-Blackout",
+        "Off-Grid Radio"
+      ]
+    },
+    "future": {
+      "short": "Gossip",
+      "year": "2026+",
+      "location": "Global Digital Realm",
+      "title": "Sovereign Privacy: Post-Quantum MLS and Gossip Mesh",
+      "subtitle": "A future where human communication belongs to individuals, not servers",
+      "threat": "DPI censorship, cloud monopoly surveillance, and impending quantum decryption (Harvest Now, Decrypt Later) demand a new baseline of sovereign protection.",
+      "courage": "Gossip eliminates central servers: message stores live in local encrypted SQLite on each device, sealed with Post-Quantum MLS, and networked over Bluetooth 2.4 GHz.",
+      "legacy": "Privacy of thought is a fundamental human right (Art. 12 UDHR). Open information drives scientific progress and guarantees a resilient future for humanity.",
+      "quote": "“The right to private thought and open dialogue is the bedrock of every free mind.”",
+      "author": "Gossip Protocol Manifesto",
+      "tags": [
+        "Post-Quantum MLS",
+        "Local SQLite",
+        "Decentralization"
+      ]
+    }
+  },
+  "manifestView": {
+    "active": "TELETYPE OF FREE THOUGHT",
+    "paused": "TELETYPE: PAUSED",
+    "pause": "Pause",
+    "resume": "Resume",
+    "speed": "Speed:",
+    "all": "All",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "scrollToBottom": "Down to latest lines",
+    "restart": "Restart from beginning",
+    "createGliderKey": "Create Glider Key",
+    "lines": [
+      "=== CHRONICLES OF INFORMATION FREEDOM // GOSSIP PROTOCOL ===",
+      "",
+      "> [STATUS] Free speech protocol active.",
+      "> [AXIOM] Information is not a weapon. Information is light.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "1. WHY PRIVACY OF CORRESPONDENCE IS BASIC HYGIENE",
+      "--------------------------------------------------------------------------------",
+      "You are often asked: 'If you have nothing to hide, why do you need encryption?'",
+      "This is a dangerous logical fallacy. Locking your front door is not an admission of guilt.",
+      "It is a natural inalienable right to privacy and human dignity.",
+      "",
+      "Without cryptography and confidential communication, the following cannot exist:",
+      "  • Medical secrecy and trusted patient-doctor care;",
+      "  • Legal privilege and fair justice;",
+      "  • Financial security and savings protection;",
+      "  • Protection of inventors and researchers against theft of their discoveries;",
+      "  • Personal sanctuary, private thought, and human autonomy.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "2. WHAT PROHIBITION AND CENSORSHIP ALWAYS PRODUCED IN HISTORY",
+      "--------------------------------------------------------------------------------",
+      "Every time the sharing of knowledge was criminalized:",
+      "  [!] Banning the printing press plunged entire nations into superstition and poverty.",
+      "  [!] Suppressing cholera and plague outbreak reports caused catastrophic mortality.",
+      "  [!] Banning genetics and cybernetics delayed biological science by 40 years.",
+      "  [!] Hiding the Chernobyl disaster in 1986 cost thousands of unsuspecting lives.",
+      "",
+      "Censorship and blackouts never solved crises — they only entrenched collapse.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "3. WHAT OPEN INFORMATION GRANTS HUMANITY",
+      "--------------------------------------------------------------------------------",
+      "  [+] Open Access scientific publishing created life-saving treatments in record time.",
+      "  [+] Free investigative journalism stops corruption before fatal tragedies occur.",
+      "  [+] Open-source cryptography built the global online economy, HTTPS, and secure commerce.",
+      "  [+] Off-grid Mesh networks rescue casualties and coordinate aid during disasters.",
+      "",
+      "--------------------------------------------------------------------------------",
+      "4. OUR CREED: COMMUNICATION WITHOUT MASTERS OR MIDDLEMEN",
+      "--------------------------------------------------------------------------------",
+      "Gossip is engineered so your voice belongs to you alone:",
+      "  • Your data lives in local encrypted SQLite on your hardware.",
+      "  • No servers harvest, read, or store your communications.",
+      "  • When networks go dark — Bluetooth Mesh bridges communities directly.",
+      "",
+      "“You can block a server, but you cannot stop an idea whose time has come.”",
+      "--------------------------------------------------------------------------------",
+      "[CONCLUSION] Freedom of information is the engine of science, prosperity, and human dignity."
+    ]
+  },
+  "gliderView": {
+    "title": "Glider of Sovereignty",
+    "desc": "Generate a unique mathematical Conway Glider based on your identity — a digital emblem of your right to private thought.",
+    "inputLabel": "Sovereign node moniker",
+    "inputPlaceholder": "Enter your node name or handle...",
+    "generating": "Computing automaton matrix...",
+    "generateBtn": "Generate Digital Emblem",
+    "principleTitle": "Sovereign Principle:",
+    "principleDesc": "Your emblem and keys are calculated locally on your processor and stored in encrypted local SQLite on your device.",
+    "nodeLabel": "NODE:",
+    "statusFull": "STATUS: FULL DIGITAL SOVEREIGNTY",
+    "copyManifest": "Manifesto",
+    "manifestCopied": "Manifesto copied!",
+    "toProfile": "Save to Profile",
+    "activated": "Activated ✓",
+    "waitingInput": "Awaiting node name to compute cellular automaton..."
+  },
+  "footer": {
+    "article": "FREEDOM_OF_INFORMATION // ARTICLE_12_UN",
+    "copyright": "© 2026 GOSSIP NETWORK INFRASTRUCTURE"
+  }
+}

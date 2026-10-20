@@ -1,0 +1,21 @@
+Business Source License 1.1 (BSL 1.1) / Gossip Dual License
+
+Parameters:
+- Licensor: Gossip Core Security Lab (Vladimir & Contributors)
+- Software: Gossip Messenger & Distributed Communication Mesh
+- Change Date: 4 years from the date of each release (transitions automatically to GPLv3)
+- Change License: GNU General Public License v3.0 or later (GPL-3.0-or-later)
+
+Additional Use Grant:
+You may make use of the Licensed Work without fee for:
+1. Personal, non-commercial, academic, and research use by individuals without any user limits.
+2. Internal business use by commercial entities and organizations with up to twenty-five (25) active user seats.
+3. Independent cryptographic security auditing, code inspection, and reproducible binary verification.
+
+Restrictions:
+1. You may NOT use the Licensed Work to provide a commercial hosted/managed service (SaaS, PaaS, Communication Platform as a Service) to third parties without an express commercial license agreement from the Licensor.
+2. Commercial deployments exceeding twenty-five (25) active user seats require an official On-Premise Enterprise License Key from the Licensor.
+3. You may NOT strip, modify, or circumvent digital attestation markers, cryptographic license validation modules, or trademark notices.
+
+For Enterprise Licensing and On-Premise Support:
+Contact: support@skuf-net.ru / https://skuf-net.ru/#enterprise

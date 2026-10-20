@@ -1,0 +1,40 @@
+{
+  "incoming": {
+    "title": "Входящий вызов",
+    "subtitleAudio": "Аудиозвонок Gossip E2EE...",
+    "subtitleVideo": "Видеозвонок Gossip E2EE...",
+    "acceptAudio": "Ответить",
+    "acceptVideo": "Видеоответ",
+    "decline": "Отклонить"
+  },
+  "outgoing": {
+    "calling": "Вызов...",
+    "ringing": "Гудки...",
+    "waitingForAnswer": "Ожидание ответа...",
+    "cancel": "Отменить"
+  },
+  "active": {
+    "audioCall": "Аудиозвонок",
+    "videoCall": "Видеозвонок",
+    "duration": "{{duration}}",
+    "e2eeStatus": "MLS WebRTC E2EE Защита",
+    "e2eeVerified": "Сквозное шифрование проверено",
+    "muteAudio": "Выключить микрофон",
+    "unmuteAudio": "Включить микрофон",
+    "muteVideo": "Выключить камеру",
+    "unmuteVideo": "Включить камеру",
+    "switchCamera": "Сменить камеру",
+    "screenShare": "Демонстрация экрана",
+    "endCall": "Завершить звонок",
+    "reconnecting": "Переподключение к вызову...",
+    "connecting": "Установление защищенного соединения..."
+  },
+  "groupCall": {
+    "title": "Групповой видеозвонок",
+    "participantsCount": "Участники ({{count}})",
+    "join": "Присоединиться",
+    "leave": "Покинуть звонок",
+    "raiseHand": "Поднять руку",
+    "handRaised": "Рука поднята"
+  }
+}

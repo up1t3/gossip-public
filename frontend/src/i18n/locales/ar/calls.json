@@ -1,0 +1,40 @@
+{
+  "incoming": {
+    "title": "مكالمة واردة",
+    "subtitleAudio": "مكالمة صوتية مشفرة Gossip E2EE...",
+    "subtitleVideo": "مكالمة فيديو مشفرة Gossip E2EE...",
+    "acceptAudio": "رد",
+    "acceptVideo": "رد بالفيديو",
+    "decline": "رفض"
+  },
+  "outgoing": {
+    "calling": "جارٍ الاتصال...",
+    "ringing": "جارٍ الرنين...",
+    "waitingForAnswer": "في انتظار الرد...",
+    "cancel": "إلغاء"
+  },
+  "active": {
+    "audioCall": "مكالمة صوتية",
+    "videoCall": "مكالمة فيديو",
+    "duration": "{{duration}}",
+    "e2eeStatus": "محمي بتشفير MLS WebRTC E2EE",
+    "e2eeVerified": "تم التحقق من التشفير الشامل",
+    "muteAudio": "كتم الميكروفون",
+    "unmuteAudio": "تشغيل الميكروفون",
+    "muteVideo": "إيقاف الكاميرا",
+    "unmuteVideo": "تشغيل الكاميرا",
+    "switchCamera": "تبديل الكاميرا",
+    "screenShare": "مشاركة الشاشة",
+    "endCall": "إنهاء المكالمة",
+    "reconnecting": "جارٍ إعادة الاتصال...",
+    "connecting": "جارٍ إنشاء اتصال آمن..."
+  },
+  "groupCall": {
+    "title": "مكالمة فيديو جماعية",
+    "participantsCount": "المشاركون ({{count}})",
+    "join": "انضمام",
+    "leave": "مغادرة المكالمة",
+    "raiseHand": "رفع اليد",
+    "handRaised": "تم رفع اليد"
+  }
+}

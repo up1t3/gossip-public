@@ -1,0 +1,20 @@
+{
+  "appId": "com.gossip.app",
+  "appName": "Gossip",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "Keyboard": {
+      "resize": "native",
+      "resizeOnFullScreen": true
+    },
+    "StatusBar": {
+      "style": "DEFAULT",
+      "backgroundColor": "#0A0A0C",
+      "overlaysWebView": true
+    }
+  }
+}

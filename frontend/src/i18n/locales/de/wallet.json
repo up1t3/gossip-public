@@ -1,0 +1,93 @@
+{
+  "title": "TON-Krypto-Wallet",
+  "tabs": {
+    "overview": "Übersicht",
+    "send": "Senden",
+    "deposit": "Empfangen",
+    "history": "Verlauf"
+  },
+  "overview": {
+    "totalBalance": "Gesamtguthaben",
+    "tonBalance": "{{amount}} TON",
+    "usdtBalance": "{{amount}} USDT",
+    "fiatEquivalent": "≈ {{fiat}}",
+    "connectWallet": "TON Connect verbinden",
+    "disconnect": "Wallet trennen",
+    "connectedAs": "Verbunden: {{address}}",
+    "quickSend": "Senden",
+    "quickReceive": "Empfangen",
+    "refreshBalances": "Guthaben aktualisieren"
+  },
+  "send": {
+    "recipientLabel": "Empfängeradresse oder .ton-Domain",
+    "recipientPlaceholder": "EQ... oder domain.ton",
+    "amountLabel": "Überweisungsbetrag",
+    "amountPlaceholder": "0.00",
+    "memoLabel": "Kommentar (Memo / Tag)",
+    "memoPlaceholder": "Optional",
+    "assetSelect": "Währung",
+    "available": "Verfügbar: {{amount}} {{symbol}}",
+    "sendButton": "{{amount}} {{symbol}} senden",
+    "confirming": "Transaktion wird in Wallet signiert...",
+    "success": "Überweisung erfolgreich gesendet!",
+    "invalidAddress": "Ungültige TON-Netzwerkadresse",
+    "insufficientFunds": "Unzureichendes Guthaben"
+  },
+  "deposit": {
+    "title": "Guthaben aufladen",
+    "desc": "Senden Sie TON oder USDT an Ihre persönliche Adresse:",
+    "copyAddress": "Adresse kopieren",
+    "shareQr": "QR-Code teilen",
+    "warning": "Senden Sie ausschließlich Vermögenswerte des TON-Netzwerks (The Open Network). Das Senden anderer Token führt zum dauerhaften Verlust."
+  },
+  "history": {
+    "title": "Transaktionsverlauf",
+    "empty": "Noch keine Transaktionen vorhanden",
+    "incoming": "Eingehende Überweisung",
+    "outgoing": "Ausgehende Überweisung",
+    "fee": "Netzwerkgebühr: {{fee}} TON",
+    "viewExplorer": "Auf TonScan ansehen"
+  },
+  "inChat": {
+    "transferButton": "Im Chat überweisen",
+    "invoiceButton": "Rechnung erstellen",
+    "receiptTitle": "TON-Überweisungsbeleg",
+    "receiptSent": "Sie haben {{amount}} {{currency}} gesendet",
+    "receiptReceived": "Sie haben {{amount}} {{currency}} empfangen",
+    "invoiceTitle": "Zahlungsrechnung",
+    "payInvoice": "{{amount}} {{currency}} bezahlen",
+    "invoicePaid": "Rechnung bezahlt"
+  },
+  "paperWallet": {
+    "title": "Papier-Wallet (Paper Wallet)",
+    "desc": "Lokale Generierung von Ed25519-Schlüsselpaaren ohne Internetverbindung.",
+    "generateButton": "Cold-Wallet generieren",
+    "mnemonicTitle": "Cold-Wallet-Seed-Phrase",
+    "saveWarning": "Drucken oder notieren Sie diese Phrase. Sie wird nur im flüchtigen Speicher aufbewahrt."
+  },
+  "hub": {
+    "title": "TON Connect 2.0 & Krypto-Wallet",
+    "connectBannerTitle": "Verbindung über TON Connect 2.0",
+    "connectBannerDesc": "Verbinden Sie Ihre Non-Custodial-Wallet für sichere P2P-Sofortüberweisungen und gebührenfreie Rechnungszahlungen.",
+    "selectWallet": "Wallet zum Verbinden auswählen:",
+    "popularBadge": "Beliebt",
+    "watchOnlyPresets": "Schnelle Onchain-Voreinstellungen (Nur-Lese-Modus):",
+    "watchOnlyMonitoring": "Onchain-Überwachung",
+    "customAddressTitle": "Wallet-Adresse eingeben (Nur-Lese-Modus / Manuell)",
+    "customAddressDesc": "Geben Sie Ihre öffentliche TON-Adresse ein (beginnt mit UQ..., EQ... oder 0:...), um den Kontostand einzusehen:",
+    "connectAddressButton": "Adresse verbinden",
+    "checkingAddress": "Adresse wird überprüft...",
+    "moreOptionsToggle": "Paper-Wallet-Backup & manuelle Adresseingabe"
+  },
+  "invoice": {
+    "title": "Zahlungsrechnung",
+    "statusPending": "Zahlung ausstehend",
+    "statusCompleted": "Bezahlt",
+    "statusExpired": "Abgelaufen",
+    "payButton": "{{amount}} {{currency}} bezahlen"
+  },
+  "receipt": {
+    "title": "Überweisungsbeleg",
+    "txHash": "Transaktions-Hash"
+  }
+}

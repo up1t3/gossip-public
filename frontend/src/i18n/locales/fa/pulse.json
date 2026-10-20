@@ -1,0 +1,92 @@
+{
+  "title": "Gossip Pulse و رادار اهداف",
+  "tabs": {
+    "forYou": "برای شما",
+    "nearby": "نزدیک من (H3)",
+    "subscriptions": "دنبال‌شده‌ها",
+    "trends": "روندها",
+    "feed": "جریان اهداف",
+    "zkAttest": "گواهی‌های ZK",
+    "escrow": "اسکروی هوشمند DvP"
+  },
+  "stories": {
+    "title": "داستان‌ها",
+    "create": "ایجاد داستان",
+    "viewAll": "مشاهده همه"
+  },
+  "createModal": {
+    "title": "ایجاد هدف در Pulse",
+    "quickMode": "پیش‌تنظیم سریع (۳۰ ثانیه)",
+    "legoMode": "سازنده لگو",
+    "titleLabel": "عنوان هدف",
+    "titlePlaceholder": "خلاصه کوتاهی از پیشنهاد یا درخواست خود...",
+    "descLabel": "توضیحات کامل",
+    "descPlaceholder": "شرایط، جزئیات و الزامات را شرح دهید...",
+    "domainLabel": "دسته‌بندی تعامل",
+    "domains": {
+      "p2p": "تبادل P2P / معامله",
+      "gig": "فریلنسری / کار (DvP)",
+      "consensus": "رأی‌گیری / نظرسنجی",
+      "aid": "همیاری / تأمین مالی",
+      "events": "رویداد / گردهمایی",
+      "trade": "تجارت و صادرات",
+      "civic": "انتخاب مدنی",
+      "whistleblow": "افشاگری و شفافیت"
+    },
+    "accordions": {
+      "trust": "اعتماد و شهرت ZK",
+      "escrow": "اسکروی هوشمند (حفاظت DvP)",
+      "privacy": "حریم خصوصی و ناشناسی",
+      "settlement": "تسویه و ارز",
+      "spatial": "موقعیت مکانی H3 Res 8",
+      "quorum": "حد نصاب و داوری"
+    },
+    "publishButton": "انتشار در Pulse",
+    "publishing": "در حال انتشار هدف...",
+    "anonymousToggle": "انتشار ناشناس (ZK-Nullifier)",
+    "titleHuman": "آگهی جدید"
+  },
+  "card": {
+    "anonymousAuthor": "عضو ناشناس",
+    "reputationScore": "شهرت ZK: {{score}}",
+    "expiresIn": "زمان باقی‌مانده: {{time}}",
+    "respondButton": "پاسخ دادن",
+    "startDeal": "آغاز معامله امن",
+    "tipTon": "انعام TON",
+    "like": "پسندیدن",
+    "comments": "نظرات ({{count}})",
+    "share": "اشتراک‌گذاری"
+  },
+  "hub": {
+    "title": "Gossip Pulse و لایه اقتصادی مستقل",
+    "subtitle": "از معاملات P2P تا تسویه‌های بین‌المللی",
+    "tabsFeed": "جریان اهداف",
+    "tabsZkAttest": "گواهی‌های ZK",
+    "tabsEscrow": "اسکروی هوشمند DvP",
+    "titleHuman": "پالس و معاملات همتا‌به‌همتا (P2P)",
+    "subtitleHuman": "آگهی‌های مستقیم، معاملات امن با قرارداد هوشمند و گواهی اعتبار",
+    "tabsFeedHuman": "ویترین آگهی‌ها",
+    "tabsZkAttestHuman": "گواهی‌های من",
+    "tabsEscrowHuman": "معاملات امانی (Escrow)"
+  },
+  "feed": {
+    "searchPlaceholder": "جستجوی اهداف، پیشنهادها، کارزارها و پروژه‌ها...",
+    "geoRadarBtn": "رادار: {{radius}} کیلومتر",
+    "geoRadarOff": "رادار خاموش",
+    "filterAll": "همه حوزه‌ها",
+    "filterP2p": "ارز P2P",
+    "filterTrade": "تجارت و صادرات",
+    "filterCivic": "انتخاب مدنی",
+    "filterAid": "همیاری",
+    "filterGig": "وظایف و کار",
+    "filterWhistleblow": "شفافیت"
+  },
+  "feedback": {
+    "modalTitle": "⭐ امتیازدهی به طرف معامله (ZK Dual-Blind)",
+    "counterparty": "طرف معامله",
+    "ratingLabel": "امتیاز شما از تعامل:",
+    "tagsLabel": "برچسب‌ها را انتخاب کنید (حداکثر ۴):",
+    "dualBlindInfo": "تعهد دوطرفه کور: امتیاز شما تا زمان ثبت نظر طرف مقابل پنهان می‌ماند و انتقام‌جویی غیرممکن است.",
+    "submit": "تأیید و ارسال نظر"
+  }
+}

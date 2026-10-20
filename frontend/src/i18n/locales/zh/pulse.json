@@ -1,0 +1,92 @@
+{
+  "title": "Gossip Pulse 与意图雷达",
+  "tabs": {
+    "forYou": "推荐",
+    "nearby": "附近 (H3)",
+    "subscriptions": "关注",
+    "trends": "热门趋势",
+    "feed": "意图动态流",
+    "zkAttest": "ZK 证明与凭证",
+    "escrow": "DvP 智能担保"
+  },
+  "stories": {
+    "title": "快拍动态",
+    "create": "发布快拍",
+    "viewAll": "查看全部"
+  },
+  "createModal": {
+    "title": "在 Pulse 中创建意图",
+    "quickMode": "快速预设 (30秒)",
+    "legoMode": "乐高积木式搭建",
+    "titleLabel": "意图标题",
+    "titlePlaceholder": "简要概括您的意向需求或提案...",
+    "descLabel": "详细描述",
+    "descPlaceholder": "详细描述合作条款、要求及细节...",
+    "domainLabel": "交互类别",
+    "domains": {
+      "p2p": "P2P 兑换 / 交易",
+      "gig": "自由职业 / 悬赏任务 (DvP)",
+      "consensus": "共识投票 / 问卷",
+      "aid": "互助协作 / 众筹",
+      "events": "线下聚会 / 活动",
+      "trade": "跨境商贸",
+      "civic": "公民倡议",
+      "whistleblow": "公开见证"
+    },
+    "accordions": {
+      "trust": "信任机制与 ZK 声誉",
+      "escrow": "智能托管担保 (DvP 交付防欺诈)",
+      "privacy": "隐私保护与匿名度",
+      "settlement": "结算币种与支付方式",
+      "spatial": "H3 Res 8 空间地理定位",
+      "quorum": "法定仲裁与仲裁员机制"
+    },
+    "publishButton": "发布到 Pulse",
+    "publishing": "正在发布意图...",
+    "anonymousToggle": "匿名发布 (ZK-Nullifier 零知识防关联)",
+    "titleHuman": "发布新需求"
+  },
+  "card": {
+    "anonymousAuthor": "匿名参与者",
+    "reputationScore": "ZK 声誉: {{score}}",
+    "expiresIn": "剩余时间: {{time}}",
+    "respondButton": "即刻响应",
+    "startDeal": "开启担保交易",
+    "tipTon": "打赏 TON",
+    "like": "赞",
+    "comments": "评论 ({{count}})",
+    "share": "分享"
+  },
+  "hub": {
+    "title": "Gossip Pulse 与主权经济层 (SEL)",
+    "subtitle": "从微型 P2P 协作到跨国去中心化结算",
+    "tabsFeed": "意图流",
+    "tabsZkAttest": "ZK 凭证",
+    "tabsEscrow": "DvP 智能托管",
+    "titleHuman": "脉搏与 P2P 交易",
+    "subtitleHuman": "直接发布需求、智能合约担保交易与零知识信誉验证",
+    "tabsFeedHuman": "需求广场",
+    "tabsZkAttestHuman": "我的零知识凭证",
+    "tabsEscrowHuman": "担保交易"
+  },
+  "feed": {
+    "searchPlaceholder": "搜索意图、悬赏、提案及协作项目...",
+    "geoRadarBtn": "空间雷达: {{radius}} 公里",
+    "geoRadarOff": "雷达已关闭",
+    "filterAll": "全部领域",
+    "filterP2p": "P2P 兑换",
+    "filterTrade": "商贸进出口",
+    "filterCivic": "公民倡议",
+    "filterAid": "互助众筹",
+    "filterGig": "任务雇佣",
+    "filterWhistleblow": "公开见证"
+  },
+  "feedback": {
+    "modalTitle": "⭐ 评价交易方 (ZK Dual-Blind 双盲承诺)",
+    "counterparty": "交易对手方",
+    "ratingLabel": "您对本次协作的评分：",
+    "tagsLabel": "选择评价标签（最多4个）：",
+    "dualBlindInfo": "双盲承诺机制：您的评价内容由哈希加密锁定，仅在双方均提交评价后同步解密公布，彻底杜绝恶意报复与敲诈勒索。",
+    "submit": "确认并提交评价"
+  }
+}

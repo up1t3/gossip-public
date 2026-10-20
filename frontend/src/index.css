@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Cyber Mint & Quantum Cyan (Obsidian Tech Dark) - по умолчанию */
+  --bg-main: #08090E;
+  --bg-chat: #0C0E17;
+  --bg-panel: rgba(14, 17, 27, 0.75);
+  --card-bg: rgba(14, 17, 27, 0.75);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-focus: rgba(16, 231, 178, 0.3);
+  --accent-color: #10E7B2; /* Cyber Mint */
+  --accent-secondary: #00D9F5; /* Quantum Cyan */
+  --accent-aquamarine: #00F5FF;
+  --focus-glow-color: rgba(16, 231, 178, 0.2);
+  
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-bg-hover: rgba(255, 255, 255, 0.06);
+  --glass-bg-active: rgba(255, 255, 255, 0.1);
+
+  --text-slate-50: #ffffff;
+  --text-slate-100: #f1f5f9;
+  --text-slate-200: #e2e8f0;
+  --text-slate-300: #cbd5e1;
+  --text-slate-400: #94a3b8;
+  --text-slate-500: #64748b;
+  --text-slate-600: #475569;
+
+  /* Высота виртуальной клавиатуры, записывается хуком useViewportAdaptation.
+     Используется утилитами .pb-kb / .mb-kb и компонентами для адаптации. */
+  --app-keyboard-height: 0px;
+}
+
+html.theme-light {
+  --bg-main: #F5F5F7;
+  --bg-chat: #EAEAEF;
+  --bg-panel: rgba(255, 255, 255, 0.65);
+  --card-bg: rgba(255, 255, 255, 0.65);
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-focus: rgba(0, 0, 0, 0.18);
+  --accent-color: #007aff; /* Apple Blue */
+  --accent-secondary: #ff9500; /* Apple Orange */
+  --accent-aquamarine: #00bcd4;
+  --focus-glow-color: rgba(0, 122, 255, 0.15);
+
+  --glass-bg: rgba(0, 0, 0, 0.02);
+  --glass-bg-hover: rgba(0, 0, 0, 0.05);
+  --glass-bg-active: rgba(0, 0, 0, 0.08);
+
+  --text-slate-50: #0f172a;
+  --text-slate-100: #1e293b;
+  --text-slate-200: #334155;
+  --text-slate-300: #475569;
+  --text-slate-400: #64748b;
+  --text-slate-500: #94a3b8;
+  --text-slate-600: #cbd5e1;
+}
+
+html.theme-coffee {
+  --bg-main: #1A120B; /* Luxury Coffee Dark Brown */
+  --bg-chat: #150E09;
+  --bg-panel: rgba(60, 42, 33, 0.7); /* Cream Cocoa */
+  --card-bg: rgba(60, 42, 33, 0.7);
+  --border-color: rgba(213, 206, 163, 0.15);
+  --border-focus: rgba(213, 206, 163, 0.35);
+  --accent-color: #D5CEA3; /* Soft Gold / Macchiato */
+  --accent-secondary: #BCA374; /* Caramel Gold */
+  --accent-aquamarine: #E5E5CB;
+  --focus-glow-color: rgba(213, 206, 163, 0.2);
+
+  --glass-bg: rgba(255, 255, 255, 0.02);
+  --glass-bg-hover: rgba(255, 255, 255, 0.05);
+  --glass-bg-active: rgba(255, 255, 255, 0.08);
+
+  --text-slate-50: #ffffff;
+  --text-slate-100: #E5E5CB;
+  --text-slate-200: #D5CEA3;
+  --text-slate-300: #c5be93;
+  --text-slate-400: #9c927a;
+  --text-slate-500: #7c725a;
+  --text-slate-600: #5c523a;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-slate-100);
+    @apply antialiased selection:bg-purple-500/30 selection:text-purple-200;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Предотвращение принудительного масштабирования (Auto-Zoom) в Safari на iOS при фокусе */
+  @media screen and (max-width: 768px) {
+    input, textarea, select {
+      font-size: 16px !important;
+    }
+  }
+
+  /* Отключение вызова системного контекстного меню Safari на кнопках и иконках */
+  button, a, [role="button"] {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  /* Тонкий красивый скроллбар */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--border-focus);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0.03) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Safe Area Utility Classes */
+.safe-padding-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.safe-padding-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.safe-margin-top {
+  margin-top: env(safe-area-inset-top, 0px);
+}
+.safe-margin-bottom {
+  margin-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Modal windows, side panels and containers Safe Area compensation */
+.modal, [role="dialog"], .modal-container, [class*="modal"], [class*="Modal"] {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.sidebar, .side-panel, .drawer, [class*="sidebar"], [class*="Sidebar"] {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.app-container {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.pl-safe {
+  padding-left: env(safe-area-inset-left, 0px);
+}
+.pr-safe {
+  padding-right: env(safe-area-inset-right, 0px);
+}
+
+/* Утилиты учёта клавиатуры: совмещают safe-area-bottom и высоту клавиатуры
+   из переменной --app-keyboard-height (пишется хуком useViewportAdaptation). */
+.pb-kb {
+  padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), 12px) + var(--app-keyboard-height));
+}
+.mb-kb {
+  margin-bottom: calc(max(env(safe-area-inset-bottom, 0px), 12px) + var(--app-keyboard-height));
+}
+
+/* Rich Text Formatting Styles */
+.rich-text-message {
+  word-wrap: break-word;
+}
+
+.rich-text-message a {
+  transition: opacity 0.2s ease;
+}
+
+.rich-text-message a:hover {
+  opacity: 0.85;
+}
+
+.rich-text-message blockquote {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rich-text-message table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rich-text-message th,
+.rich-text-message td {
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.rich-text-message th {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.rich-text-message tr:last-child td {
+  border-bottom: none;
+}
+
+/* Inline math adjustment */
+.inline-math {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+/* Block math custom scrollbar */
+.block-math::-webkit-scrollbar {
+  height: 4px;
+}
+.block-math::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* Custom visible scrollbars for Admin Panel & lists */
+.admin-custom-scrollbar {
+  scrollbar-width: auto;
+  scrollbar-color: rgba(16, 185, 129, 0.45) rgba(255, 255, 255, 0.05);
+}
+
+.theme-light .admin-custom-scrollbar {
+  scrollbar-color: rgba(37, 99, 235, 0.45) rgba(0, 0, 0, 0.06);
+}
+
+.admin-custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.admin-custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.admin-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.45);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.7);
+}
+
+.theme-light .admin-custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.theme-light .admin-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(37, 99, 235, 0.45);
+}
+
+.theme-light .admin-custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(37, 99, 235, 0.7);
+}
+
+/* Утилиты для скрытия скроллбаров в горизонтальных меню и каруселях */
+.no-scrollbar,
+.scrollbar-none {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.no-scrollbar::-webkit-scrollbar,
+.scrollbar-none::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* ==========================================================================
+   Специальные возможности (A11y): режим «Крупный шрифт»
+   Масштабирует типографику интерфейса и сообщений без раздувания фиксированных
+   контейнеров, сайдбаров и нижнего таб-бара (Zero-Breakage Architecture).
+   ========================================================================== */
+html.large-font {
+  --app-font-scale: 1.15;
+}
+
+html.large-font .text-\[9px\] {
+  font-size: 11px !important;
+  line-height: 1.25 !important;
+}
+
+html.large-font .text-\[10px\] {
+  font-size: 12px !important;
+  line-height: 1.3 !important;
+}
+
+html.large-font .text-\[11px\] {
+  font-size: 13px !important;
+  line-height: 1.35 !important;
+}
+
+html.large-font .text-xs {
+  font-size: 0.875rem !important;
+  line-height: 1.35rem !important;
+}
+
+html.large-font .text-sm {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+html.large-font .text-base {
+  font-size: 1.125rem !important;
+  line-height: 1.65rem !important;
+}
+
+html.large-font .text-lg {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+html.large-font .text-xl {
+  font-size: 1.375rem !important;
+  line-height: 1.85rem !important;
+}
+
+html.large-font .text-2xl {
+  font-size: 1.625rem !important;
+  line-height: 2rem !important;
+}
+
+/* Защита контролов, чекбоксов и тумблеров от сжатия текстом */
+html.large-font label.cursor-pointer,
+html.large-font button.shrink-0,
+html.large-font .shrink-0 {
+  flex-shrink: 0 !important;
+}
+
